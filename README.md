@@ -1,6 +1,6 @@
-# 🌦️ Joey – TechLauncher Team
+# 🌦️ JoeyLLM – TechLauncher Team
 
-This repository is used by the TechLauncher Joey Team to organise the project, manage documentation, and track progress.
+This repository is used by the TechLauncher JoeyLLM Team to organise the project, manage documentation, and track progress.
 
 > ⚠️ **Keep all project work inside GitHub.** GitHub already provides everything needed for documentation, planning, and task tracking.
 
@@ -15,7 +15,7 @@ Use this repository for:
 - 📚 Notes and weekly reports
 - 👥 Team organisation
 
-Use the **GitHub Project board** called **Joey Team** to track tasks and progress.
+Use the **GitHub Project board** called **JoeyLLM Team** to track tasks and progress.
 
 ---
 
