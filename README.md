@@ -1,10 +1,25 @@
-# JoeyLLM
+# 🌦️ Joey Nowcasting – TechLauncher Team
 
-Welcome to the JoeyLLM project repository.
+This repository is used by the TechLauncher Joey Team to organise the project, manage documentation, and track progress.
 
-This repository contains documentation, meeting notes, reports, and resources for the JoeyLLM project.
+> ⚠️ **Keep all project work inside GitHub.** GitHub already provides everything needed for documentation, planning, and task tracking.
 
-## Structure
+> ⛔ **Important:** You may receive suggestions from tutors or others to use different tools for planning or documentation. Those are only suggestions. For this project, keep everything inside this repository and GitHub so the work stays organised and easy to review.
+
+## 📋 What This Repository Is For
+
+Use this repository for:
+
+- 📄 Project documentation
+- 📊 Planning and task tracking
+- 📚 Notes and weekly reports
+- 👥 Team organisation
+
+Use the **GitHub Project board** called **Joey Team** to track tasks and progress.
+
+---
+
+## 📁 Structure
 
 | Folder | Description |
 |--------|-------------|
@@ -14,7 +29,3 @@ This repository contains documentation, meeting notes, reports, and resources fo
 | `reports📄` | Weekly and final project reports |
 | `resources🔗` | Useful links and learning notes |
 | `templates🧩` | Reusable templates for documents |
-
----
-
-> _Placeholder — update this README with project-specific details._
