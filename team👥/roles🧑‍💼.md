@@ -1,6 +1,6 @@
 # Roles 🧑‍💼
 
-Responsibilities and roles within the BOM-Team.
+Responsibilities and roles within the JoeyLLM project.
 
 ---
 

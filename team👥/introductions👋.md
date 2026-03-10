@@ -1,6 +1,6 @@
 # Introductions 👋
 
-Meet the BOM-Team members.
+Meet the JoeyLLM team members.
 
 ---
 

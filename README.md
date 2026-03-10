@@ -1,8 +1,8 @@
-# BOM-Team
+# JoeyLLM
 
-Welcome to the BOM-Team project repository.
+Welcome to the JoeyLLM project repository.
 
-This repository contains documentation, meeting notes, reports, and resources for the BOM-Team.
+This repository contains documentation, meeting notes, reports, and resources for the JoeyLLM project.
 
 ## Structure
 

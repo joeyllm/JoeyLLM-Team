@@ -1,6 +1,6 @@
 # Team 👥
 
-This folder contains information about the BOM-Team members.
+This folder contains information about the JoeyLLM team members.
 
 ## Contents
 

@@ -6,7 +6,7 @@ A reference for key terms and abbreviations used in this project.
 
 ## Terms
 
-**BOM**
+**JoeyLLM**
 > _Placeholder — define this term._
 
 **Term 2**

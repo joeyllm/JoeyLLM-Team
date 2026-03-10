@@ -1,6 +1,6 @@
 # Contact Info 📬
 
-Contact details for BOM-Team members.
+Contact details for JoeyLLM team members.
 
 ---
 

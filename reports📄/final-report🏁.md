@@ -1,6 +1,6 @@
 # Final Report 🏁
 
-**Project:** BOM-Team
+**Project:** JoeyLLM
 **Date:** _Placeholder_
 **Prepared by:** _Placeholder_
 
