@@ -1,48 +1,20 @@
-# 🦘 JoeyLLM – Southern Cross AI
+# BOM-Team
 
-This repository is used by the **JoeyLLM team** to organise the project, manage documentation, and track development of the **Australian foundational language model**.
+Welcome to the BOM-Team project repository.
 
-⚠️ Keep all project work inside GitHub. GitHub already provides everything needed for documentation, planning, and task tracking.
+This repository contains documentation, meeting notes, reports, and resources for the BOM-Team.
 
-⛔ Important: You may receive suggestions to use other tools for planning, documentation, or coordination. Those are only suggestions. For this project, keep everything inside this repository and GitHub so the work stays organised, transparent, and easy for the team to review.
+## Structure
 
----
-
-## 📋 What This Repository Is For
-
-Use this repository for:
-
-📄 Project documentation  
-🧠 Model research and experiments  
-📊 Planning and task tracking  
-📚 Technical notes and reports  
-👥 Team organisation  
-
-Use the GitHub Project board associated with this repository to track tasks and development progress.
+| Folder | Description |
+|--------|-------------|
+| `docs📚` | Project documentation and architecture |
+| `team👥` | Team introductions, roles, and contact info |
+| `meetings🗓️` | Weekly meeting notes |
+| `reports📄` | Weekly and final project reports |
+| `resources🔗` | Useful links and learning notes |
+| `templates🧩` | Reusable templates for documents |
 
 ---
 
-## 🧠 JoeyLLM Project Focus
-
-The JoeyLLM project is part of **Southern Cross AI** and focuses on building:
-
-- 🇦🇺 An Australian-focused large language model
-- 📚 Datasets representing Australian language and culture
-- 🧪 Experiments in model training and evaluation
-- 🛠 Tools and infrastructure for sovereign AI development
-
----
-
-## ✍️ Documentation Style
-
-- Use **Markdown (.md) files only**
-- Use **emojis** to make documentation easier to scan and navigate
-- Write documentation so new contributors can quickly understand the project
-
----
-
-## 📁 Repository Structure
-
-The repository structure may evolve as the project develops.
-
-The team can adjust the structure as needed while the project evolves.
+> _Placeholder — update this README with project-specific details._
