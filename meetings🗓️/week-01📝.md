@@ -1,6 +1,6 @@
 # Week 1 Meeting 📝
 
-**Date:** _Placeholder_
+**Date:** 2026-03-16
 **Attendees:** _Placeholder_
 **Facilitator:** _Placeholder_
 
@@ -28,4 +28,4 @@
 
 ## Next Meeting
 
-**Date:** _Placeholder_
+**Date:** 2026-03-23
