@@ -14,14 +14,14 @@ This folder contains information about the JoeyLLM team members.
 
 ## 👤 Team Members
 
-| Name           | Role       | Student ID | Replied | Interests / Skills                                                                                             |
-| -------------- | ---------- | ---------- | ------- | -------------------------------------------------------------------------------------------------------------- |
-| Yingzhe Xu     | 🎓 Student | u8260186   | ✅ Yes  | Data engineering, machine learning, UI/UX design, user privacy; experience with time-series forecasting models |
-| Wen Sun        | 🎓 Student | —          | ❌ No   | Unknown                                                                                                        |
-| Xiang Chang    | 🎓 Student | —          | ❌ No   | Unknown                                                                                                        |
-| Xingyu Li      | 🎓 Student | —          | ❌ No   | Unknown                                                                                                        |
-| Nuo Chen       | 🎓 Student | —          | ❌ No   | Unknown                                                                                                        |
-| Solomon Inyang | 🧑‍🏫 Tutor  | —          | —       | Tutor responsible for coordinating meeting times and supporting the student team                               |
+| Name           | Role       | Student ID | Replied |
+| -------------- | ---------- | ---------- | ------- |
+| [Yingzhe Xu](yingzhe-xu.md)     | 🎓 Student | u8260186   | ✅ Yes  |
+| [Wen Sun](wen-sun.md)            | 🎓 Student | —          | ❌ No   |
+| [Xiang Chang](xiang-chang.md)   | 🎓 Student | —          | ❌ No   |
+| [Xingyu Li](xingyu-li.md)       | 🎓 Student | —          | ❌ No   |
+| [Nuo Chen](nuo-chen.md)         | 🎓 Student | —          | ❌ No   |
+| [Solomon Inyang](solomon-inyang.md) | 🧑‍🏫 Tutor | —       | —       |
 
 ---
 
