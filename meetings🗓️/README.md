@@ -2,14 +2,14 @@
 
 This folder contains notes from all team meetings.
 
-## TechLauncher Schedule
+## 🚀 TechLauncher Schedule
 
 | Week | Date | File |
 |------|------|------|
 | Week 1 | 16 Mar 2026 | `week-01📝.md` |
 | Week 2 | 23 Mar 2026 | `week-02📝.md` |
 | Week 3 | 30 Mar 2026 | `week-03📝.md` |
-| **Break** | **6 Apr – 17 Apr** | — |
+| **☕ Break** | **6 Apr – 17 Apr** | — |
 | Week 4 | 20 Apr 2026 | `week-04📝.md` |
 | Week 5 | 27 Apr 2026 | `week-05📝.md` |
 | Week 6 | 4 May 2026 | `week-06📝.md` |
@@ -25,7 +25,7 @@ The project runs alongside the **ANU Semester 1 teaching period**, which is appr
 
 For planning purposes, the timeline below shows the **approximate semester structure**. Dates and pacing may change slightly during the semester.
 
-### Teaching Weeks
+### 📆 Teaching Weeks
 
 | Week   | Approximate Date |
 | ------ | ---------------- |
@@ -36,12 +36,12 @@ For planning purposes, the timeline below shows the **approximate semester struc
 | Week 5 | 23 Mar 2026      |
 | Week 6 | 30 Mar 2026      |
 
-### Mid-Semester Break
+### ☕ Mid-Semester Break
 
 There is typically a **mid-semester break after Week 6** (around early–mid April).
 During this time there are **no regular meetings**.
 
-### Remaining Teaching Weeks
+### 📆 Remaining Teaching Weeks
 
 | Week    | Approximate Date |
 | ------- | ---------------- |
@@ -52,7 +52,7 @@ During this time there are **no regular meetings**.
 | Week 11 | 18 May 2026      |
 | Week 12 | 25 May 2026      |
 
-### Notes
+### 📝 Notes
 
 * All dates above are **approximate and provided for planning purposes**.
 * The project schedule may adjust depending on progress, holidays, or university requirements.
