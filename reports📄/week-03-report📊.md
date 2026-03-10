@@ -1,6 +1,6 @@
-# Week 1 Report 📊
+# Week 3 Report 📊
 
-**Period:** Week of 16 Mar 2026
+**Period:** Week of 30 Mar 2026
 **Prepared by:** _Placeholder_
 
 ---

@@ -1,6 +1,6 @@
 # Week 2 Report 📊
 
-**Period:** _Placeholder_
+**Period:** Week of 23 Mar 2026
 **Prepared by:** _Placeholder_
 
 ---
