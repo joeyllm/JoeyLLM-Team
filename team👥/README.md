@@ -16,12 +16,12 @@ This folder contains information about the JoeyLLM team members.
 
 | Name           | Role       | Student ID | Replied |
 | -------------- | ---------- | ---------- | ------- |
-| [Yingzhe Xu](yingzhe-xu.md)     | 🎓 Student | u8260186   | ✅ Yes  |
-| [Wen Sun](wen-sun.md)            | 🎓 Student | —          | ❌ No   |
-| [Xiang Chang](xiang-chang.md)   | 🎓 Student | —          | ❌ No   |
-| [Xingyu Li](xingyu-li.md)       | 🎓 Student | —          | ❌ No   |
-| [Nuo Chen](nuo-chen.md)         | 🎓 Student | —          | ❌ No   |
-| [Solomon Inyang](solomon-inyang.md) | 🧑‍🏫 Tutor | —       | —       |
+| [Yingzhe Xu](members/yingzhe-xu.md)     | 🎓 Student | u8260186   | ✅ Yes  |
+| [Wen Sun](members/wen-sun.md)            | 🎓 Student | —          | ❌ No   |
+| [Xiang Chang](members/xiang-chang.md)   | 🎓 Student | —          | ❌ No   |
+| [Xingyu Li](members/xingyu-li.md)       | 🎓 Student | —          | ❌ No   |
+| [Nuo Chen](members/nuo-chen.md)         | 🎓 Student | —          | ❌ No   |
+| [Solomon Inyang](members/solomon-inyang.md) | 🧑‍🏫 Tutor | —       | —       |
 
 ---
 
