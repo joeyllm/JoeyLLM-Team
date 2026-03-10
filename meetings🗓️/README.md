@@ -19,4 +19,45 @@ This folder contains notes from all team meetings.
 
 ---
 
+## 📅 Semester Timeline (Approximate)
+
+The project runs alongside the **ANU Semester 1 teaching period**, which is approximately **12 teaching weeks**.
+
+For planning purposes, the timeline below shows the **approximate semester structure**. Dates and pacing may change slightly during the semester.
+
+### Teaching Weeks
+
+| Week   | Approximate Date |
+| ------ | ---------------- |
+| Week 1 | 23 Feb 2026      |
+| Week 2 | 2 Mar 2026       |
+| Week 3 | 9 Mar 2026       |
+| Week 4 | 16 Mar 2026      |
+| Week 5 | 23 Mar 2026      |
+| Week 6 | 30 Mar 2026      |
+
+### Mid-Semester Break
+
+There is typically a **mid-semester break after Week 6** (around early–mid April).
+During this time there are **no regular meetings**.
+
+### Remaining Teaching Weeks
+
+| Week    | Approximate Date |
+| ------- | ---------------- |
+| Week 7  | 20 Apr 2026      |
+| Week 8  | 27 Apr 2026      |
+| Week 9  | 4 May 2026       |
+| Week 10 | 11 May 2026      |
+| Week 11 | 18 May 2026      |
+| Week 12 | 25 May 2026      |
+
+### Notes
+
+* All dates above are **approximate and provided for planning purposes**.
+* The project schedule may adjust depending on progress, holidays, or university requirements.
+* Weekly meetings will normally occur on **Mondays** during the teaching period.
+
+---
+
 > _Add new weekly notes using the meeting template._
