@@ -2,12 +2,12 @@
 
 | Name           | Role       | Student ID | Replied |
 | -------------- | ---------- | ---------- | ------- |
-| [Yingzhe Xu](members/yingzhe-xu.md)     | 🎓 Student | u8260186   | ✅ Yes  |
-| [Wen Sun](members/wen-sun.md)            | 🎓 Student | —          | ❌ No   |
-| [Xiang Chang](members/xiang-chang.md)   | 🎓 Student | —          | ❌ No   |
-| [Xingyu Li](members/xingyu-li.md)       | 🎓 Student | —          | ❌ No   |
-| [Nuo Chen](members/nuo-chen.md)         | 🎓 Student | —          | ❌ No   |
-| [Solomon Inyang](members/solomon-inyang.md) | 🧑‍🏫 Tutor | —       | —       |
+| [Yingzhe Xu](member-profiles/yingzhe-xu.md)     | 🎓 Student | u8260186   | ✅ Yes  |
+| [Wen Sun](member-profiles/wen-sun.md)            | 🎓 Student | —          | ❌ No   |
+| [Xiang Chang](member-profiles/xiang-chang.md)   | 🎓 Student | —          | ❌ No   |
+| [Xingyu Li](member-profiles/xingyu-li.md)       | 🎓 Student | —          | ❌ No   |
+| [Nuo Chen](member-profiles/nuo-chen.md)         | 🎓 Student | —          | ❌ No   |
+| [Solomon Inyang](member-profiles/solomon-inyang.md) | 🧑‍🏫 Tutor | —       | —       |
 
 ---
 

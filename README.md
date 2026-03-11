@@ -8,6 +8,17 @@ This repository is used by the **TechLauncher JoeyLLM Team** to organise the pro
 
 ---
 
+# 🚀 Where to Start
+
+New team members should read these first:
+
+1. `Project💼/Project-Goal🎯.md`
+2. `Compute-Infrastructure🖥/wireguard.md`
+3. `Team👥/introductions👋.md`
+4. `Weekly🗂️/README.md`
+
+---
+
 ## 📦 What This Repository Is For
 
 Use this repository for:
