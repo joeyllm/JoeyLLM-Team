@@ -14,7 +14,7 @@ Use this repository for:
 
 * 📄 Project documentation
 * 📋 Planning and task tracking
-* 📝 Notes and weekly reports
+* 🗂️ Combined weekly meeting notes and progress updates
 * 👥 Team organisation
 
 ---
