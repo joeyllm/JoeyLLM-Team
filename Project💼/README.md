@@ -14,42 +14,7 @@ The goal is to learn how modern LLM systems are built **from raw data through to
 ---
 
 
-# 🤖 Semester 2 – Model Training
 
-The second semester focuses on **training specialised AI models** using the cleaned datasets produced earlier.
-
-Students will experiment with **fine-tuning existing language models** to specialise in different domains.
-
-Examples include:
-
-- regional models (Australian English, Canadian English, etc.)
-- domain-specific models (banking, defence, science, hobbies, etc.)
-
-The aim is to understand how datasets shape model behaviour and how specialised models can be built.
-
----
-
-# 🖥 Compute Infrastructure
-
-The project uses a remote compute environment with:
-
-- **GPU servers**
-- **Jupyter Notebook environments**
-- large datasets stored locally
-
-The Jupyter environment is primarily intended for:
-
-- building workflows
-- testing code
-- developing data pipelines
-
-Large training jobs may later be executed on:
-
-- dedicated GPU servers
-- clusters with **A100 GPUs**
-- external high-performance computing systems.
-
----
 
 # 🎯 Project Goal
 
@@ -80,4 +45,5 @@ If you want, the next step would be improving this README by adding three things
 1. **A simple architecture diagram** of the pipeline (data → classifiers → fine-tuning).
 2. **A "What students will actually build" section** (very helpful for TechLauncher grading).
 3. **A 1-paragraph explanation of JoeyLLM itself** so they understand the bigger vision.
+
 
