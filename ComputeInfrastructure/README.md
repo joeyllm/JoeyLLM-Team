@@ -24,7 +24,7 @@ The environment is designed to provide you with real research infrastructure, si
 To access your environment, follow these three steps:
 
 **1. Connect to the Network**
-The compute infrastructure sits behind a secure internal network. You must first connect using a **WireGuard VPN**. *(See `wireguard_setup.md` for instructions).*
+The compute infrastructure sits behind a secure internal network. You must first connect using a **WireGuard VPN**. *(See `Wireguard.md` for instructions).*
 
 **2. Verify GitHub Access**
 Authentication is handled via GitHub. Before logging in, ensure you have an active GitHub account and have been added to the project's GitHub team.
@@ -67,6 +67,6 @@ Keep infrastructure notes practical and current. If access steps or machine deta
 
 | File | Description |
 | :--- | :--- |
-| `wireguard_setup.md` | How to install and connect using the WireGuard VPN. |
-| `system_overview.md` | High-level overview of the system and environment design. |
-| `l4_gpu.md` | Details and specific instructions for the NVIDIA L4 GPU environment. |
+| `Wireguard.md` | How to install and connect using the WireGuard VPN. |
+| `BaseSystem.md` | High-level overview of the system and environment design. |
+| `L4Gpu.md` | Details and specific instructions for the NVIDIA L4 GPU environment. |

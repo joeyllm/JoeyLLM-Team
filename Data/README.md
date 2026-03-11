@@ -28,8 +28,8 @@ Please read through the following documents to understand how to interact with t
 
 | File | Description |
 | :--- | :--- |
-| `fineweb.md` | Details on the 60 TB Fineweb corpus, the read-only mount, and the Parquet file structure. |
-| `loading-data.md` | Code examples for loading data efficiently on CPU (Pandas/PyArrow) vs. GPU (cuDF). |
-| `gpu-data.md` | Crucial VRAM management rules and OOM (Out of Memory) prevention for the L4 GPUs. |
-| `best-practices.md` | The "Subset First" rule, memory management, and how to transition code into background jobs. |
-| `publishing.md` | Hugging Face, Kaggle & Data Cards |
+| `Fineweb.md` | Details on the 60 TB Fineweb corpus, the read-only mount, and the Parquet file structure. |
+| `LoadingData.md` | Code examples for loading data efficiently on CPU (Pandas/PyArrow) vs. GPU (cuDF). |
+| `L4Gpu.md` | Crucial VRAM management rules and OOM (Out of Memory) prevention for the L4 GPUs. |
+| `BestPractices.md` | The "Subset First" rule, memory management, and how to transition code into background jobs. |
+| `Publishing.md` | Hugging Face, Kaggle & Data Cards |

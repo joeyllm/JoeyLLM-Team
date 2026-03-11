@@ -2,7 +2,7 @@
 
 [![Build](https://img.shields.io/badge/build-not%20configured-lightgrey)](./CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/license-not%20specified-lightgrey)](./README.md)
-[![Project%20Board](https://img.shields.io/badge/project%20board-JoeyLLM%20Team-blue)](./Project💼/github-project-board📊.md)
+[![Project%20Board](https://img.shields.io/badge/project%20board-JoeyLLM%20Team-blue)](./Project/GithubProjectBoard.md)
 
 This repository is used by the **TechLauncher JoeyLLM Team** to organise the project, manage documentation, and track progress.
 
@@ -28,10 +28,10 @@ The goal is not just to produce models, but to understand how data quality, infr
 
 New team members should read these first:
 
-1. `Project💼/project-goal🎯.md`
-2. `Compute-Infrastructure🖥/wireguard.md`
-3. `Team👥/introductions👋.md`
-4. `Weekly🗂️/README.md`
+1. `Project/ProjectGoal.md`
+2. `ComputeInfrastructure/Wireguard.md`
+3. `Team/Introductions.md`
+4. `Weekly/README.md`
 
 ---
 
@@ -39,12 +39,12 @@ New team members should read these first:
 
 | Folder | Purpose |
 |--------|---------|
-| `Compute-Infrastructure🖥` | Access setup, VPN instructions, and GPU or system documentation |
+| `ComputeInfrastructure` | Access setup, VPN instructions, and GPU or system documentation |
 | `Data📖` | Data sources, dataset notes, and cleaning or preprocessing documentation |
-| `Learning-Resources🔗` | Shared notes, references, and useful links |
-| `Project💼` | Project goals, planning docs, and semester overviews |
-| `Team👥` | Team member info, roles, and contact details |
-| `Weekly🗂️` | Meeting notes, weekly reports, and reporting templates |
+| `LearningResources` | Shared notes, references, and useful links |
+| `Project` | Project goals, planning docs, and semester overviews |
+| `Team` | Team member info, roles, and contact details |
+| `Weekly` | Meeting notes, weekly reports, and reporting templates |
 | `Repos` | Notes about code repositories, experiments, and related setup information |
 
 ---
