@@ -32,3 +32,4 @@ Please read through the following documents to understand how to interact with t
 | `loading-data.md` | Code examples for loading data efficiently on CPU (Pandas/PyArrow) vs. GPU (cuDF). |
 | `gpu-data.md` | Crucial VRAM management rules and OOM (Out of Memory) prevention for the L4 GPUs. |
 | `best-practices.md` | The "Subset First" rule, memory management, and how to transition code into background jobs. |
+| `publishing.md` | Hugging Face, Kaggle & Data Cards |
