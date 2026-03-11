@@ -6,10 +6,9 @@ This folder contains useful references, tools, and learning notes.
 
 | File | Description |
 |------|-------------|
-| `pyearthtools🌍.md` | Notes on the pyearthtools library |
-| `useful-links🔗.md` | Curated list of useful links |
-| `learning-notes📓.md` | Team learning notes and summaries |
+| `useful-links🔗.md` | Curated links to project docs and external references |
+| `learning-notes📓.md` | Shared notes and prompts for team learning sessions |
 
 ---
 
-> _Placeholder — add resources as you discover them._
+Keep this folder limited to references the team actually uses. Remove stale links instead of keeping placeholders.
