@@ -4,14 +4,6 @@ Welcome to the **JoeyLLM** data environment. This directory contains the documen
 
 Because we are dealing with massive amounts of data—specifically a 60 TB corpus—it is critical that you understand how our storage architecture works to avoid crashing the system or breaking your personal workspace.
 
-## 🗺️ The NFS Architecture
-
-All shared project datasets are stored on the compute server's high-capacity storage drives and streamed directly into your JupyterHub environment via a Network File System (NFS) mount. 
-
-This means the data acts like a network drive. You do not need to download this data to your personal laptop. 
-
-**Security Note:** You do not have access to the base system data or the underlying storage drives outside of your specifically mounted project folders.
-
 ## 💾 Storage Limits & Quotas
 
 Each student is allocated a strict **50 GB personal storage quota** for their notebook environment. This space is intended solely for your code, small test files, environment configurations, and limited output data.
