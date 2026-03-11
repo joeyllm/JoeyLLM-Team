@@ -26,3 +26,5 @@ Shared notes from team learning sessions and self-study.
 ---
 
 All team members should contribute when they discover something worth reusing.
+
+emijoeis

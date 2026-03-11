@@ -10,3 +10,5 @@ Students will work with:
 - model training and fine-tuning
 
 The goal is to learn how modern LLM systems are built **from raw data through to trained models**.
+
+emijoeis

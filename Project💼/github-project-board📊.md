@@ -29,3 +29,5 @@ The team uses the **`JoeyLLM Team`** GitHub Project board as the main task track
 - Review the board before each weekly meeting.
 - Close or archive stale items once they are no longer relevant.
 - Keep board status aligned with the weekly update documents in [`../Weekly🗂️/`](../Weekly🗂️/).
+
+emijoeis

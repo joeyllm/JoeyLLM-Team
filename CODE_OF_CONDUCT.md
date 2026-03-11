@@ -51,3 +51,5 @@ This code of conduct applies to repository discussions, pull requests, issues, r
 ## Enforcement
 
 Project maintainers or teaching staff may remove comments, ask for behaviour changes, or restrict participation if this code of conduct is not followed.
+
+emijoeis

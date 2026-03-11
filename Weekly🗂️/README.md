@@ -29,3 +29,5 @@ This folder combines team meeting notes and weekly progress reports into one doc
 ---
 
 > _Use the combined weekly report template for new entries._
+
+emijoeis

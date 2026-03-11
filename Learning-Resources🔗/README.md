@@ -12,3 +12,5 @@ This folder contains useful references, tools, and learning notes.
 ---
 
 Keep this folder limited to references the team actually uses. Remove stale links instead of keeping placeholders.
+
+emijoeis

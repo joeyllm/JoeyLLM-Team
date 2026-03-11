@@ -24,3 +24,5 @@ Responsibilities and roles within the JoeyLLM project.
 
 ### Analyst
 > _Placeholder — describe the analyst's responsibilities._
+
+emijoeis

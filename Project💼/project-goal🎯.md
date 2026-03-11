@@ -10,3 +10,5 @@ By the end of the project the team will have:
 
 The project is designed to give students **hands-on experience with real-world AI infrastructure and workflows** used in modern language model development.
 
+
+emijoeis

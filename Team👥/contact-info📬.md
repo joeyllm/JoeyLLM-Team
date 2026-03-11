@@ -16,3 +16,5 @@ Contact details for JoeyLLM team members.
 ---
 
 Use [`README.md`](README.md) for the linked member profiles and current team status.
+
+emijoeis
