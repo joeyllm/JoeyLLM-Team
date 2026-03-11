@@ -13,40 +13,6 @@ The goal is to learn how modern LLM systems are built **from raw data through to
 
 ---
 
-# 📊 Semester 1 – Data and Infrastructure
-
-The first semester focuses on **understanding the infrastructure and preparing datasets**.
-
-Key activities include:
-
-### Data Cleaning
-
-Students will work with large web datasets such as **FineWeb**, which are already stored on the project’s remote system.
-
-Tasks include:
-
-- exploring the dataset
-- filtering content
-- cleaning and normalising text
-- preparing data suitable for machine learning
-
-The goal is to produce **high-quality filtered datasets** that can be used for model training.
-
----
-
-### Dataset Classification
-
-Near the end of the first semester the team will begin building **classification models**.
-
-These classifiers will analyse text and determine characteristics such as:
-
-- country of origin (Australia, US, Canada, UK, etc.)
-- regional language patterns
-- other useful metadata
-
-These tools help organise large datasets and enable more targeted model training later.
-
----
 
 # 🤖 Semester 2 – Model Training
 
@@ -114,3 +80,4 @@ If you want, the next step would be improving this README by adding three things
 1. **A simple architecture diagram** of the pipeline (data → classifiers → fine-tuning).
 2. **A "What students will actually build" section** (very helpful for TechLauncher grading).
 3. **A 1-paragraph explanation of JoeyLLM itself** so they understand the bigger vision.
+
