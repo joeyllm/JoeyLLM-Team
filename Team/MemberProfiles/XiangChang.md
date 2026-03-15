@@ -11,7 +11,7 @@
 | | |
 |---|---|
 | 📱 Phone | _0457477145_ |
-| 🌏 From | _Where are you from?_ |
+| 🌏 From | _China_ |
 | 💼 LinkedIn | _URL_ |
 | 🐙 GitHub | _URL_ |
 | 🤗 Hugging Face | _URL_ |
@@ -25,56 +25,56 @@
 | | |
 |---|---|
 | 🏫 University | Australian National University |
-| 📚 Degree | _e.g. Bachelor of Advanced Computing_ |
-| 📅 Year | _e.g. 3rd year_ |
+| 📚 Degree | _ Master of  Computing_ |
+| 📅 Year | _e.g. 2nd year_ |
 | 🗓️ Expected Graduation | _e.g. 2027_ |
-| 🌐 Exchange / International | _Yes / No_ |
+| 🌐 Exchange / International | _No / Yes_ |
 
 ---
 
 ## 🏗️ Background
 
-> _Where did you study or work before ANU? Any relevant experience, previous degrees, or industry background?_
+> _I had my bachelor degree of computing back in china, in ZhengZhou University_
 
 ---
 
 ## 🧠 Interests / Skills
 
-> _What are your interests or areas of expertise?_
+> _Machine Learning_
 
 ---
 
 ## 🛠️ Technical Background
 
-> _What tools, languages, or frameworks are you comfortable with? (e.g. Python, PyTorch, SQL, React...)_
+> _Mostly Java_
 
 ---
 
 ## 📁 Previous Projects
 
-> _Any past projects worth mentioning? Link to GitHub repos, papers, or portfolios if you'd like._
+> _Not much_
 
 ---
 
 ## 🙋 About Me
 
-> _Share a short intro about yourself — optional._
+> _Hi,my name is Xiang Chang, I'm taking Master of Computing at ANU, my specialization is machine learning. _
 
 ---
 
 ## 🎯 Project Goals
 
-> _What do you hope to get out of this project?_
+> _Have some experience about building an AI_
 
 ---
 
 ## 🤝 Preferred Working Style
 
-> _How do you like to work? (e.g. async, pair programming, structured tasks...)_
+> _structured tasks_
 
 ---
 
 ## 📌 Availability
 
-> _When are you generally available? Any constraints we should know about?_
+> _Monday_
 🙂
