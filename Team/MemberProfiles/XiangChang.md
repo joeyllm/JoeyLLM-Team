@@ -10,7 +10,7 @@
 
 | | |
 |---|---|
-| 📱 Phone | _Optional_ |
+| 📱 Phone | _0457477145_ |
 | 🌏 From | _Where are you from?_ |
 | 💼 LinkedIn | _URL_ |
 | 🐙 GitHub | _URL_ |
