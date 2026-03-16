@@ -2,7 +2,7 @@
 
 **Role:** 🎓 Student
 **Student ID:** u8188942
-**Email:** [Nuo.Chen1@anu.edu.au](mailto:Nuo.Chen1@anu.edu.au)
+**Email:** [u8188942@anu.edu.au](mailto:u8188942@anu.edu.au)
 
 ---
 
