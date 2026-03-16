@@ -13,7 +13,7 @@
 | 📱 Phone | 0415841644 |
 | 🌏 From | China |
 | 💼 LinkedIn | — |
-| 🐙 GitHub | — |
+| 🐙 GitHub | 2513238602 |
 | 🤗 Hugging Face | — |
 | 🎮 Discord | .nuochen |
 | 💬 WeChat | — |
