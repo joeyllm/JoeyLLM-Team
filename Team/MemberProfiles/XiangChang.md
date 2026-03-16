@@ -16,6 +16,7 @@
 | 🐙 GitHub | _URL_ |
 | 🤗 Hugging Face | _URL_ |
 | 🎮 Discord | _Username_ |
+| 💬 WeChat | _Optional_ |
 | 📘 Facebook | _Optional_ |
 
 ---
@@ -65,16 +66,3 @@
 ## 🎯 Project Goals
 
 > _Have some experience about building an AI_
-
----
-
-## 🤝 Preferred Working Style
-
-> _structured tasks_
-
----
-
-## 📌 Availability
-
-> _Monday_
-🙂

@@ -15,6 +15,7 @@
 | 🐙 GitHub | _URL_ |
 | 🤗 Hugging Face | _URL_ |
 | 🎮 Discord | _Username_ |
+| 💬 WeChat | _Optional_ |
 | 📘 Facebook | _Optional_ |
 
 ---

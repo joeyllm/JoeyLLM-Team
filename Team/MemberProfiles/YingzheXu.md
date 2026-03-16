@@ -16,6 +16,7 @@
 | 🐙 GitHub | https://github.com/Posture627K?tab=repositories |
 | 🤗 Hugging Face | https://huggingface.co/Posture627Ka |
 | 🎮 Discord | Posture627Ka |
+| 💬 WeChat | null |
 | 📘 Facebook | null |
 
 ---
@@ -86,4 +87,3 @@
 > Improve teamwork skills
 
 > Learning the latest developments in AI development / finetuning
-

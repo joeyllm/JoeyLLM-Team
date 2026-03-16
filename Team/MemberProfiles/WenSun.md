@@ -16,6 +16,7 @@
 | 🐙 GitHub | _URL_ |
 | 🤗 Hugging Face | _URL_ |
 | 🎮 Discord | _Username_ |
+| 💬 WeChat | _Optional_ |
 | 📘 Facebook | _Optional_ |
 
 ---
@@ -65,16 +66,3 @@
 ## 🎯 Project Goals
 
 > _What do you hope to get out of this project?_
-
----
-
-## 🤝 Preferred Working Style
-
-> _How do you like to work? (e.g. async, pair programming, structured tasks...)_
-
----
-
-## 📌 Availability
-
-> _When are you generally available? Any constraints we should know about?_
-🙂
