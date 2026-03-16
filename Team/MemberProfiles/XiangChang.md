@@ -12,12 +12,12 @@
 |---|---|
 | 📱 Phone | _0457477145_ |
 | 🌏 From | _China_ |
-| 💼 LinkedIn | _URL_ |
-| 🐙 GitHub | _URL_ |
-| 🤗 Hugging Face | _URL_ |
-| 🎮 Discord | _Username_ |
-| 💬 WeChat | _Optional_ |
-| 📘 Facebook | _Optional_ |
+| 💼 LinkedIn | _(https://www.linkedin.com/in/%E6%83%B3-%E5%B8%B8-a05414353/)_ |
+| 🐙 GitHub | _(https://github.com/Sean593380)_ |
+| 🤗 Hugging Face | _(https://huggingface.co/Sean0528)_ |
+| 🎮 Discord | _Sean_ |
+| 💬 WeChat | _17613686867_ |
+| 📘 Facebook | _Xiang Chang_ |
 
 ---
 
