@@ -46,6 +46,13 @@ Focus on completing onboarding gaps, improving GitHub competency, and beginning 
 - Test processing and filtering approaches
 - Prepare work so it can scale later to larger data volumes
 
+### Communication
+
+- Join the team Discord: https://discord.gg/YqCZZTVY
+- Share progress and findings regularly
+- Use Discord for quick coordination and follow-up questions
+- Arrange a time this week for all team members to meet with Matthew Altenburg
+
 ## Notes
 
 - Close remaining gaps from Week 01
