@@ -16,7 +16,7 @@
 
 ## Discussion
 
-> _Placeholder - summarise key points discussed._
+> A milestone-based task structure was introduced, with issues created to represent concrete deliverables.
 
 ## Decisions
 
@@ -34,7 +34,8 @@
 
 ## Completed This Week
 
-- _Placeholder task_
+- Defined data pipeline components  
+- Created issues and milestone for task management
 - _Placeholder task_
 
 ## In Progress
