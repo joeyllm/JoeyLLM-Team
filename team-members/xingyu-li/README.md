@@ -10,14 +10,14 @@
 
 | | |
 |---|---|
-| 📱 Phone | _Optional_ |
-| 🌏 From | _Where are you from?_ |
-| 💼 LinkedIn | _URL_ |
-| 🐙 GitHub | _URL_ |
-| 🤗 Hugging Face | _URL_ |
-| 🎮 Discord | _Username_ |
-| 💬 WeChat | _Optional_ |
-| 📘 Facebook | _Optional_ |
+| 📱 Phone | 0478904669 |
+| 🌏 From | China |
+| 💼 LinkedIn | — |
+| 🐙 GitHub | XingyuLi2 |
+| 🤗 Hugging Face | — |
+| 🎮 Discord | — |
+| 💬 WeChat | LXY14374536 |
+| 📘 Facebook | — |
 
 ---
 
@@ -26,46 +26,56 @@
 | | |
 |---|---|
 | 🏫 University | Australian National University |
-| 📚 Degree | _e.g. Bachelor of Advanced Computing_ |
-| 📅 Year | _e.g. 3rd year_ |
-| 🗓️ Expected Graduation | _e.g. 2027_ |
-| 🌐 Exchange / International | _Yes / No_ |
+| 📚 Degree | Master of Machine Learning and Computer Vision |
+| 📅 Year | 2nd year |
+| 🗓️ Expected Graduation | 2026 |
+| 🌐 Exchange / International | International |
 
 ---
 
 ## 🏗️ Background
 
-> _Where did you study or work before ANU? Any relevant experience, previous degrees, or industry background?_
+I completed my undergraduate studies at the University of Sydney, majoring in Mathematics and Data Science. During this time, I built a foundation in quantitative analysis, statistics, and programming. Currently studying at ANU, building a strong foundation in programming, machine learning, and applied AI through coursework and project-based learning.
 
 ---
 
 ## 🧠 Interests / Skills
 
-> _What are your interests or areas of expertise?_
-
+- Data analysis and problem solving  
+- Machine learning fundamentals  
+- Interest in AI and its real-world applications  
+- Interest in Large Language Model (LLM) applications 
 ---
 
 ## 🛠️ Technical Background
 
-> _What tools, languages, or frameworks are you comfortable with? (e.g. Python, PyTorch, SQL, React...)_
+- Comfortable using Python for data analysis and basic machine learning tasks  
+- Familiar with libraries such as NumPy, Pandas, and Matplotlib  
+- Basic experience with data preprocessing and model implementation  
+- Some exposure to tools such as SQL and Jupyter Notebook  
 
 ---
 
 ## 📁 Previous Projects
 
-> _Any past projects worth mentioning? Link to GitHub repos, papers, or portfolios if you'd like._
+- Completed several coursework projects involving data analysis and statistical modelling  
+- Worked on small-scale machine learning tasks such as regression and classification  
+- Some experience working with real-world datasets in academic settings
 
 ---
 
 ## 🙋 About Me
 
-> _Share a short intro about yourself — optional._
+I am a student who is still exploring different areas within LLM and AI. I enjoy learning by doing and gradually improving through practice. I value clarity, consistency, and building a solid foundation.
 
 ---
 
 ## 🎯 Project Goals
 
-> _What do you hope to get out of this project?_
+- Develop strong practical skills in AI and machine learning
+- Gain hands-on experience in end-to-end project development
+- Build a solid portfolio for future academic or industry opportunities
+- Explore impactful applications of AI in real-world contexts
 
 ---
 
