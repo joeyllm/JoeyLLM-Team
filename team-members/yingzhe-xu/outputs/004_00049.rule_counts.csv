@@ -1,0 +1,11 @@
+rule,removed_count,removed_ratio_over_raw
+language_score_too_low,24048,0.13945154163308146
+suspicious_url_pattern,3676,0.021316694404657662
+token_count_too_low,2516,0.014589989967932177
+low_information_or_template_page,1809,0.010490179591410694
+duplicate_url,15,8.698324702662267e-05
+empty_or_almost_empty_text,0,0.0
+bad_domain,0,0.0
+non_english_language,0,0.0
+duplicate_id,0,0.0
+duplicate_text_exact,0,0.0
