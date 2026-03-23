@@ -1,0 +1,5 @@
+issue,count
+high_repetition,2885
+very_long (>10k tok),7
+boilerplate_heavy,5
+very_short (<50 tok),4
