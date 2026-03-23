@@ -1,0 +1,5 @@
+step,rows,rows_removed
+original,172447,0
+english_only,172447,0
+high_language_score,148399,24048
+text_length_filter,148391,8

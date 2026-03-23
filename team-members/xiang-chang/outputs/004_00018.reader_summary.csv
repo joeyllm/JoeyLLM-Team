@@ -1,0 +1,2 @@
+file_name,file_path,num_rows,num_columns,columns,missing_text,missing_url,num_languages,avg_language_score,avg_text_length,avg_estimated_token_count
+004_00018.parquet,/home/jovyan/data/fineweb/004_00018.parquet,172447,11,"text, id, dump, url, date, file_path, language, language_score, token_count, text_length, estimated_token_count",0,0,1,0.9352966696017893,3638.0663044297667,594.0242857225699
