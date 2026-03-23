@@ -3,7 +3,7 @@
 **Week:** Week 2  
 **Date:** 2026-03-23  
 **Attendees:** Wen Sun, Xiang Chang, Xingyu Li, Nuo Chen, Yingzhe Xu 
-**Facilitator:**   
+**Facilitator:** Wen Sun, Xiang Chang, Xingyu Li, Nuo Chen, Yingzhe Xu   
 **Prepared by:** Xiang Chang
 
 ---
@@ -37,7 +37,7 @@
 
 ## Progress Summary
 
-> The team successfully explored the current 10 parquet files, compared individual notebook results, and discussed initial filtering strategies. Team members now have a clearer understanding of dataset structure and a stronger starting point for later cleaning and training work.
+> The team successfully explored the current 10 parquet files, and after knowing the basic data structure, each team member chose a parquet file to build a reader, did attempts on cleaning, compared individual notebook results, and discussed initial filtering strategies. Team members now have a clearer understanding of dataset structure and a stronger starting point for later cleaning and training work.
 
 ## Completed This Week
 
