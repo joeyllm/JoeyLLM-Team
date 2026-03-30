@@ -1,0 +1,6 @@
+metric,value
+total_rows,172447.0
+rows_kept_after_filter,165738.0
+rows_dropped_by_any_rule,6709.0
+retention_rate,0.9610952930465593
+drop_rate,0.03890470695344077

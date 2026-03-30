@@ -1,0 +1,8 @@
+- Total rows scanned: 172447
+- Rows kept after filtering: 165738 (96.11%)
+- Rows dropped by at least one rule: 6709 (3.89%)
+- Median language_score changed from 0.9430 to 0.9444.
+- Median token_count changed from 487.00 to 500.50.
+- Median text length changed from 2262.00 to 2332.00.
+- Boilerplate ratio changed from 6.06% to 5.97%.
+- HTML residue ratio changed from 0.05% to 0.04%.

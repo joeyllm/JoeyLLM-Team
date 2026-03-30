@@ -1,0 +1,10 @@
+rule,hit_count
+language_score < 0.85,6126
+token_count > 10000,326
+url path blocked,250
+token_count < 50,74
+len(text) < 200,65
+text is null,0
+token_count is null,0
+url is null,0
+language_score is null,0
