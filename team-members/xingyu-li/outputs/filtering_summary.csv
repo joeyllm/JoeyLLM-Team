@@ -1,0 +1,5 @@
+step,before,after,removed
+R1_min_tokens,172447,172373,74
+R2_max_tokens,172373,172363,10
+R3_lang_score,172363,166282,6081
+R4_min_text_len,166282,166278,4
