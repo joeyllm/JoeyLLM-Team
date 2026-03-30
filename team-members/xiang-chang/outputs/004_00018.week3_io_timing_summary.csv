@@ -1,0 +1,9 @@
+operation,seconds
+low_info_check,6.318031549453735
+suspicious_url_check,0.24226117134094238
+very_long_text_check,0.34515833854675293
+non_alnum_ratio_check,18.428292274475098
+repeated_line_check,1.9200222492218018
+html_code_check,5.512956619262695
+domain_frequency_check,0.3103759288787842
+top_domain_inspection,0.007103681564331055
