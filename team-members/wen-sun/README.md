@@ -14,7 +14,7 @@
 | 🌏 From | _China_ |
 | 💼 LinkedIn | _URL_ |
 | 🐙 GitHub | _URL_ |
-| 🤗 Hugging Face | _URL_ |
+| 🤗 Hugging Face | [_URL_ ](https://huggingface.co/Alisunwen)|
 | 🎮 Discord | _alisonsun__ |
 | 💬 WeChat | _Aliwen00_ |
 | 📘 Facebook | _Optional_ |
