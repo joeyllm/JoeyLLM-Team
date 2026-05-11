@@ -14,7 +14,7 @@
 | 🌏 From | China |
 | 💼 LinkedIn | — |
 | 🐙 GitHub | XingyuLi2 |
-| 🤗 Hugging Face | — |
+| 🤗 Hugging Face | https://huggingface.co/XingyuLi |
 | 🎮 Discord | — |
 | 💬 WeChat | LXY14374536 |
 | 📘 Facebook | — |
