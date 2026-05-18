@@ -1,0 +1,42 @@
+## 🚀 Run
+
+Build the PDF, open the PDF viewer, and keep rebuilding automatically while you edit:
+
+```bash
+latexmk -pdf main.tex && { evince main.pdf >/dev/null 2>&1 & latexmk -pdf -pvc main.tex; }
+```
+
+---
+
+## ✏️ Work
+
+* 🧠 open in Vim (or any editor)
+* 💾 edit + save → PDF updates automatically
+
+---
+
+## 📦 Setup (if needed)
+
+```bash
+sudo apt install texlive-full latexmk evince
+```
+
+Yes, that works cleanly.
+
+### Add to `~/.bash_aliases`
+
+```bash
+cat >> ~/.bash_aliases <<'EOF'
+paper() {
+  latexmk -pdf main.tex && { evince main.pdf >/dev/null 2>&1 & latexmk -pdf -pvc main.tex; }
+}
+EOF
+source ~/.bashrc
+```
+
+### Use
+
+```bash
+paper
+```
+

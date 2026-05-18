@@ -1,0 +1,33 @@
+\section{Discussion}
+
+The results demonstrate that it is feasible to extract large-scale, culturally grounded datasets from web data using relatively simple and scalable signals. By combining domain-based filtering with targeted structural cleaning and embedding-based analysis, we are able to derive national corpora that retain both breadth and internal coherence.
+
+A key insight from this work is that cultural grounding does not emerge from explicit labeling, but from distributional bias within the data. By constraining the source of the data, for example through country-specific domains, the resulting corpora naturally reflect regional language patterns, institutional references, and contextual framing. These characteristics are subtle and often diffuse, but they become observable at scale through statistical and embedding-based methods.
+
+At the same time, the approach relies on assumptions that introduce limitations. Domain-based filtering is an imperfect proxy for geographic origin, and some degree of cross-regional content remains in all datasets. Similarly, the additional cleaning stage focuses on high-confidence structural signals, which improves consistency but does not guarantee complete separation. The goal is therefore not absolute purity, but a statistically meaningful shift toward regionally representative data.
+
+Another important consideration is that the methods used for validation are approximate. Topic distributions and embedding projections provide useful insight into dataset structure, but they do not capture all aspects of cultural nuance. These analyses should be understood as indicators of broad trends rather than precise measurements.
+
+Despite these limitations, the approach provides a practical foundation for constructing datasets that are more aligned with specific cultural or national contexts than traditional global corpora. This has implications for the development of language models that better reflect local language use and societal context. In particular, the extracted datasets can serve as high-confidence starting points for further refinement, including iterative filtering and model-based expansion.
+
+Overall, this work suggests that culturally grounded datasets can be derived from existing web-scale resources without requiring manual curation or domain-specific data collection. By making the structure of these datasets visible and measurable, we enable more transparent and targeted approaches to training regionally representative AI systems.
+
+\section{Conclusion}
+
+In this work, we introduced a scalable method for extracting and validating national corpora from web-scale data. Starting from Common Crawl and leveraging the FineWeb dataset, we applied domain-based filtering and targeted structural cleaning to derive country-specific datasets across multiple regions, including Australia, the United Kingdom, Canada, and New Zealand.
+
+Through embedding-based analysis and distributional measurements, we demonstrated that the resulting corpora retain broad topical coverage while exhibiting coherent internal structure. Cross-country comparisons further showed that the method generalizes effectively and produces datasets with distinct distributional characteristics aligned with their respective regions.
+
+While the approach relies on imperfect proxies and approximate validation methods, it provides a practical framework for constructing culturally grounded datasets at scale. Rather than requiring manual curation, the process leverages existing web data and applies consistent transformations to produce analyzable and usable corpora.
+
+These results establish a foundation for future work in developing regionally representative language models. In particular, the extracted datasets can serve as high-confidence starting points for iterative refinement, domain-specific filtering, and model-based expansion. As interest in sovereign and culturally aligned AI systems continues to grow, methods for constructing and understanding such datasets will play an increasingly important role.
+
+\section{Data Transparency and Reproducibility}
+
+To support reproducibility, we document the pipeline artifacts, including the specific domain lists used, structural filtering rules, and aggregate statistics before and after each stage. While direct redistribution of raw tokens may be constrained by licensing, sharing these artifacts allows other researchers to reproduce the extraction logic on comparable data sources and evaluate the design choices.
+
+\appendix
+\section{Before vs.\ After Cleaning Examples}
+An appendix figure can provide a few short qualitative examples showing removed and retained samples. For instance, one example could show text removed due to a clearly non-local structural pattern such as a foreign address format, while another could show retained content that legitimately discusses another country within an otherwise regionally grounded document. Its purpose is to demonstrate that the filtering logic is sensible and not overly aggressive.
+
+\end{document}
