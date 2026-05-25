@@ -6,7 +6,7 @@ That means: **four 1B and four 5B regional datasets live on Hugging Face** (AU /
 
 ---
 
-**Window:** 2026-05-14 → 2026-05-31 · **Milestone:** [`Sprint 3`](../../milestone/sprint-3)
+**Window:** 2026-05-11 → 2026-05-31 · **Milestone:** [Sprint 3](https://github.com/joeyllm/JoeyLLM-Team/milestone/4)
 
 - **Week 1** — ship the 4 × 1B datasets on HF (fix the missing AU 1B); lock in weekly notebook commits.
 - **Week 2** — build & upload the 4 × 5B datasets; commit training notebooks; review paper data pipeline.
