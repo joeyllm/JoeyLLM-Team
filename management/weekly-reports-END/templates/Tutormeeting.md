@@ -3,7 +3,7 @@
 > _Copy to the week folder as `tutor-YYYY-MM-DD.md`._
 
 **Date:** YYYY-MM-DD · **Sprint / Week:** _S4 / W01_
-**Present:** _Names_ · **Tutor:** Solomon Inyang
+**Present:** _Names_ · **Tutor:** Annie Sun
 
 ## What we showed
 
