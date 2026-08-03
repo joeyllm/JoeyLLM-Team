@@ -1,0 +1,98 @@
+# Weekly Tutor Meeting Minutes
+
+**Date:** Monday, 2:07 PM – 2:40 PM
+
+## 1. Team Introductions
+
+New members introduced themselves, including their academic background, interests, and research areas.
+
+---
+
+## 2. Sprint Goal Confirmation
+
+- The team confirmed that the Sprint Goal had been defined.
+- The Sprint Goal had been emailed to the tutor.
+- The GitHub repository had also been created.
+
+---
+
+## 3. Current Sprint Scope
+
+Current work focuses on building a ChatGPT/Gemini-style UI prototype.
+
+At this stage:
+
+- No API integration is required.
+- No AI model integration is required.
+
+---
+
+## 4. Confirm Target Users
+
+The tutor emphasized that UI design should begin by identifying the target users.
+
+The team should confirm with the client whether the website is intended for:
+
+- Researchers
+- Government staff
+- The general public
+- Another target audience
+
+The recommended development workflow is:
+
+> **Confirm requirements → Identify users → Research → Prototype → Client confirmation → Development**
+
+---
+
+## 5. Sprint Goal Stability
+
+Do not change the Sprint Goal during the sprint unless absolutely necessary.
+
+Sprint Review will be assessed against the agreed Sprint Goal.
+
+---
+
+## 6. JupyterHub Unavailable
+
+Since the server is currently unavailable, the team should focus on:
+
+- UI design
+- Research
+- Project planning
+- Documentation
+
+---
+
+## 7. Research Documentation
+
+Learning new technologies (such as **Vector Databases** and **Qdrant**) counts as sprint work.
+
+However, evidence of the research should be maintained, such as:
+
+- Notes
+- Journals
+- Markdown documents
+- Summaries
+
+---
+
+## 8. Professional Communication
+
+Avoid making assumptions.
+
+Whenever project requirements are unclear, send follow-up emails to the client to obtain clarification.
+
+---
+
+## 9. Tutor Availability
+
+**Office Hours**
+
+- Monday: **10:30 AM – 4:30 PM**
+- Thursday: **7:00 PM – 12:00 AM**
+
+**Regular Tutor Meeting**
+
+- Monday, **2:00 PM**
+
+---
