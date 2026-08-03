@@ -34,12 +34,12 @@
 
 | Action | Owner | Due |
 |--------|-------|-----|
-| Confirm the website's target users and intended use with the client, and record the response. | Client liaison | Before further UI development |
-| Use the confirmed target users to guide user research, accessibility considerations and prototype refinement. | UI workstream | Before client confirmation of the prototype |
-| Record vector-database and Qdrant research as reviewable Markdown evidence in GitHub. | Data/retrieval workstream | Before the Sprint Review |
-| Keep Sprint Goal, PBIs, tasks and supporting documentation aligned. | Southern-cross AI | Throughout Sprint 4 |
-| Follow up by email whenever client requirements are unclear instead of relying on assumptions. | Client liaison | As required |
-| Prepare the completed UI and supporting evidence for the Sprint Review. | Southern-cross AI | 2026-08-10 |
+| Confirm the website's target users and intended use with the client, and record the response. | Wen Sun, Xiang Chang and Xingyu Li | Before further UI development |
+| Use the confirmed target users to guide user research, accessibility considerations and prototype refinement. | Nuo Chen and Yingzhe Xu | Before client confirmation of the prototype |
+| Record vector-database and Qdrant research as reviewable Markdown evidence in GitHub. | Southern-cross AI team (Nuo Chen, Wen Sun, Xiang Chang, Xingyu Li and Yingzhe Xu) | Before the Sprint Review |
+| Keep Sprint Goal, PBIs, tasks and supporting documentation aligned. | Southern-cross AI team | Throughout Sprint 4 |
+| Follow up by email whenever client requirements are unclear instead of relying on assumptions. | Wen Sun, Xiang Chang and Xingyu Li | As required |
+| Prepare the completed UI and supporting evidence for the Sprint Review. | Southern-cross AI team | 2026-08-10 |
 
 ## Tutor availability
 
