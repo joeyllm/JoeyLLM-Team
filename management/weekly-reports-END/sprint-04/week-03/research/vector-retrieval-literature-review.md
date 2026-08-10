@@ -2,11 +2,11 @@
 
 **Project:** Southern-cross AI / JoeyLLM  
 **Sprint / Week:** Sprint 4 / Week 3  
-**Research week:** 10-16 August 2026  
+**Research completed:** 10 August 2026  
 **Last reviewed:** 10 August 2026  
-**Status:** Literature review and experiment proposal only
+**Status:** Sprint 4 literature review complete; retrieval implementation and benchmark not claimed
 
-> This document records Sprint 4 Week 3 research evidence for the planned Qdrant and retrieval workstream. It does not claim that an embedding model, vector collection, retrieval pipeline, RAG system, or production benchmark has been implemented.
+> This document records Sprint 4 Week 3 research evidence for the Qdrant and retrieval workstream. It does not claim that an embedding model, vector collection, retrieval pipeline, RAG system, or production benchmark has been implemented.
 
 ## 1. Research question
 
@@ -37,7 +37,7 @@ flowchart LR
 | 1 | Reimers and Gurevych (2019), *Sentence-BERT* | Uses siamese or triplet BERT structures to produce fixed-size sentence embeddings that can be compared efficiently with cosine similarity. | Explains why an embedding model is needed before documents and queries can be stored and compared in Qdrant. | The paper does not establish that SBERT is the best model for JoeyLLM data, current multilingual needs, or the client's framework. |
 | 2 | Karpukhin et al. (2020), *Dense Passage Retrieval* | Uses separate question and passage encoders, dot-product scoring, in-batch negatives, and hard negatives for open-domain QA retrieval. | Provides a model for evaluating passage retrieval separately from answer generation and highlights the value of negative examples. | Reported gains are from the paper's QA datasets and cannot be transferred directly to the JoeyLLM corpus. |
 | 3 | Malkov and Yashunin (2016/2018), *HNSW* | Builds a multi-layer proximity graph for approximate nearest-neighbour search with strong recall/latency behaviour and incremental indexing. | Provides the algorithmic basis for understanding Qdrant's dense-vector index and its main tuning trade-offs. | Approximate search introduces recall, memory, construction-time, and query-latency trade-offs; no parameter values are automatically correct for this project. |
-| 4 | Johnson, Douze, and Jegou (2017/2019), *Billion-scale Similarity Search with GPUs* | Presents GPU-optimised exact and approximate similarity search, including k-selection and product quantisation, implemented in Faiss. | Shows how hardware, quantisation, memory, accuracy, and scale affect vector search. | It studies Faiss and very large GPU workloads, not the current Qdrant deployment. It is background for future scale, not evidence that GPU indexing is currently required. |
+| 4 | Johnson, Douze, and Jegou (2017/2019), *Billion-scale Similarity Search with GPUs* | Presents GPU-optimised exact and approximate similarity search, including k-selection and product quantisation, implemented in Faiss. | Shows how hardware, quantisation, memory, accuracy, and scale affect vector search. | It studies Faiss and very large GPU workloads, not the current Qdrant deployment. It is a large-scale reference, not evidence that GPU indexing is currently required. |
 | 5 | Lewis et al. (2020), *Retrieval-Augmented Generation* | Combines a parametric sequence-to-sequence model with non-parametric dense retrieval and compares RAG-Sequence with RAG-Token. | Supplies the conceptual architecture for retrieving evidence before using the client-provided model to generate an answer. | RAG improves results in the reported tasks but does not guarantee factuality, correct citations, or suitability for the JoeyLLM dataset. |
 
 ## 3. Detailed findings
@@ -79,7 +79,7 @@ Johnson et al. optimise similarity search for GPU execution and introduce a high
 
 Lewis et al. combine a pre-trained retriever and dense document index with a sequence-to-sequence generator. RAG-Sequence uses the same retrieved-document latent variable across the generated sequence, whereas RAG-Token can condition different tokens on different retrieved documents. The paper reports stronger results than its parametric-only baseline on several knowledge-intensive tasks and shows that the external index can be replaced without retraining the full generator.
 
-**Project implication:** the knowledge base should be treated as an independently maintainable dataset. A future interface should preserve the relationship between an answer and its retrieved evidence. It should also distinguish a successful retrieval with no relevant result from a failed request. Retrieval improves access to evidence, but the project still needs explicit groundedness and citation checks.
+**Project implication:** the knowledge base should be treated as an independently maintainable dataset. A retrieval-enabled interface should preserve the relationship between an answer and its retrieved evidence. It should also distinguish a successful retrieval with no relevant result from a failed request. Retrieval improves access to evidence, but the project still needs explicit groundedness and citation checks.
 
 ## 4. Combined design implications
 
@@ -96,7 +96,7 @@ The papers support the following tentative architecture, subject to the client A
 
 This is a research-informed proposal, not a confirmed production design.
 
-## 5. Proposed evaluation plan
+## 5. Evaluation requirements identified during Sprint 4
 
 ### 5.1 Questions that must be confirmed with the client
 
@@ -120,7 +120,7 @@ This is a research-informed proposal, not a confirmed production design.
 
 ### 5.3 Minimum reproducible research evidence
 
-A future spike should record:
+The team concluded that any valid retrieval experiment must record:
 
 - corpus snapshot and preprocessing rules;
 - embedding model name, version, dimensions, and distance metric;
@@ -129,7 +129,7 @@ A future spike should record:
 - exact and approximate retrieval outputs;
 - metrics plus observed failure cases;
 - commands or notebook steps required to repeat the test;
-- clear separation between measured results and proposed next steps.
+- clear separation between measured results and identified evaluation requirements.
 
 Until such an artefact exists, the accurate status remains **research complete; retrieval implementation and benchmark pending**.
 

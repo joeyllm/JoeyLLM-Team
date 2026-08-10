@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Confirm that the consolidated ChatJoey interface is accessible, supports the agreed interaction flow, and communicates with the real JoeyLLM API. This record separates successful technical connectivity from future evaluation of model-answer quality.
+Confirm that the consolidated ChatJoey interface is accessible, supports the agreed interaction flow, and communicates with the real JoeyLLM API. This record separates successful technical connectivity from model-answer-quality evaluation, which is outside the verified Sprint 4 scope.
 
 ## Shared test results
 
@@ -38,9 +38,6 @@ Confirm that the consolidated ChatJoey interface is accessible, supports the agr
 
 The team confirmed that the deployed Sprint 4 flow operated without a reported defect in the agreed manual checks. This supports the status **Deployed and manually tested**. It does not claim automated end-to-end coverage, performance testing, security testing, production observability, Qdrant/RAG integration, or a formal benchmark of model-answer quality.
 
-## Carry-over quality actions
+## Sprint 4 validation boundary
 
-| Action ID | Action | Accountable owner | Due | Acceptance evidence | Status |
-| --- | --- | --- | --- | --- | --- |
-| S4-A17 | Preserve this repeatable validation set and convert any future failure into a uniquely named GitHub issue | Nuo Chen | 17 August 2026 | Updated test record and linked issue where applicable | Open |
-| S4-A18 | Define an automated browser-test PBI for the next implementation Sprint | Nuo Chen | 17 August 2026 | ChatJoey issue with scope and acceptance criteria | Open |
+All five members completed the agreed manual validation and no defect was reported in the tested Sprint 4 flow. Automated browser testing, load testing, security testing, and forced-failure testing were not Sprint 4 completion criteria and are not claimed by this record.
