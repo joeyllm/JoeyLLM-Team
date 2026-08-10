@@ -15,7 +15,7 @@
 | Present | Annie Sun, Nuo Chen, Wen Sun, Xiang Chang, Xingyu Li, Yingzhe Xu |
 | Apologies / Absent | None |
 | Meeting objective | Confirm Sprint 4 scope, target-user requirements, productive work during the server outage, and evidence expected for the Sprint Review |
-| Related Sprint Goal / Milestone | [Sprint 4 Goal](../../../SPRINT4_GOALS.md) / [Sprint 4 milestone](https://github.com/joeyllm/JoeyLLM-Team/milestone/5) |
+| Related Sprint Goal / Work items | [Sprint 4 Goal](../../../SPRINT4_GOALS.md) / [Nine closed Sprint 4 issues](https://github.com/joeyllm/JoeyLLM-Team/issues?q=is%3Aissue%20milestone%3A%22Sprint%204%22%20is%3Aclosed) |
 | Minutes location | `management/weekly-reports-END/sprint-04/week-02/tutor-minutes-2026-08-03.md` |
 
 ## 2. Agenda
@@ -117,7 +117,7 @@
 | Risks requiring monitoring | S4-R04-S4-R06 |
 | Minutes prepared by | Xingyu Li |
 | Reviewer | Nuo Chen |
-| Approval status | Draft pending Nuo Chen review |
+| Approval status | Approved by Nuo Chen on 3 August 2026 |
 | Distributed to | Tutor and Southern-cross AI |
 | GitHub location | This document |
 

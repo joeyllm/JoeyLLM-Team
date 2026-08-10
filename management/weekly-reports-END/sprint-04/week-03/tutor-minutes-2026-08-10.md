@@ -15,7 +15,7 @@
 | Present | Annie Sun, Nuo Chen, Wen Sun, Xiang Chang, Xingyu Li, Yingzhe Xu |
 | Apologies / Absent | None |
 | Meeting objective | Review Sprint 4 delivery, evidence, documentation, tickets, prototype consolidation, system validation, research, and same-day process improvements |
-| Related Sprint Goal / Milestone | [Sprint 4 Goal](../../../SPRINT4_GOALS.md) / [Sprint 4 milestone](https://github.com/joeyllm/JoeyLLM-Team/milestone/5) |
+| Related Sprint Goal / Work items | [Sprint 4 Goal](../../../SPRINT4_GOALS.md) / [Nine closed Sprint 4 issues](https://github.com/joeyllm/JoeyLLM-Team/issues?q=is%3Aissue%20milestone%3A%22Sprint%204%22%20is%3Aclosed) |
 | Minutes location | `management/weekly-reports-END/sprint-04/week-03/tutor-minutes-2026-08-10.md` |
 
 ## 2. Agenda
@@ -31,6 +31,7 @@
 | Previous ID | Action / deliverable | Accountable owner | Original due | Current status | Completion evidence | Reason / revised next step |
 | --- | --- | --- | --- | --- | --- | --- |
 | S4-A05 | Obtain explicit Client confirmation of target users | Wen Sun | 10 August 2026 | Closed as an unresolved Sprint limitation | Client has not explicitly confirmed the audience | Use “people interested in Australian information” only as a documented working assumption based on Semester 1 context; no Client-confirmed claim is made |
+| S4-A04 | Prepare a reviewable Sprint deliverable or work plan | Yingzhe Xu | 10 August 2026 | Done | [ChatJoey PR #4](https://github.com/joeyllm/ChatJoey/pull/4), [live application](https://chat-joey.vercel.app/), and [Sprint summary](ChatJoey_Sprint_Summary_English.pdf) | The original deliverable action was completed through the shared deployed interface; S4-A08 separately covers the review-evidence package |
 | S4-A06 | Produce comparable individual Next.js prototypes | Yingzhe Xu | 7 August 2026 | Done | [PR #1](https://github.com/joeyllm/ChatJoey/pull/1), [PR #2](https://github.com/joeyllm/ChatJoey/pull/2), historical prototype evidence, and [frontend selection record](Meeting%20record%20about%20front-end%20website.pdf) | Historical branches were later removed after convergence; durable evidence is retained through PRs, commits, and the selection record |
 | S4-A07 / S4-A12 | Produce Qdrant research evidence and identify unresolved production decisions | Nuo Chen | 10 August 2026 | Done as research | [Qdrant basics](https://github.com/joeyllm/ChatJoey/blob/main/docs/qdrant-basics-en.md), [technical discussion](Vector_Database_Meeting_Minutes_EN.pdf), and [literature review](research/vector-retrieval-literature-review.md) | Qdrant/RAG implementation and benchmark are not claimed in Sprint 4 |
 | S4-A08 | Prepare Sprint Review evidence aligned with the goal | Xiang Chang | 10 August 2026 | Done | [Sprint summary](ChatJoey_Sprint_Summary_English.pdf), this week index, implementation and research links | Team confirmation remains required for any statement marked pending in the summary |
@@ -121,7 +122,7 @@
 | Risks / limitations at close | S4-R10-S4-R12 recorded as accepted limitations or outside-scope boundaries |
 | Minutes prepared by | Xingyu Li |
 | Reviewer | Nuo Chen |
-| Approval status | Draft pending Nuo Chen review |
+| Approval status | Approved by Nuo Chen on 10 August 2026 |
 | Distributed to | Tutor and Southern-cross AI |
 | GitHub location | This document |
 

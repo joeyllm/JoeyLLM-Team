@@ -4,7 +4,7 @@
 
 | File | Record type | Status |
 | --- | --- | --- |
-| [`tutor-minutes-2026-08-10.md`](tutor-minutes-2026-08-10.md) | Tutor / Sprint progress-review minutes | Draft pending Nuo Chen review |
+| [`tutor-minutes-2026-08-10.md`](tutor-minutes-2026-08-10.md) | Tutor / Sprint progress-review minutes | Approved by Nuo Chen on 10 August 2026 |
 | [`system-validation.md`](system-validation.md) | Team validation record | Team-confirmed manual validation |
 | [`research/vector-retrieval-literature-review.md`](research/vector-retrieval-literature-review.md) | Literature review | Research complete; implementation outside Sprint 4 scope |
 
