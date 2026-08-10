@@ -1,68 +1,55 @@
 # Meeting Minutes Templates
 
-This folder contains the shared professional meeting minutes template and weekly report template for JoeyLLM-Team.
+This folder contains the shared professional meeting-minutes template and weekly report template for Southern-cross AI / JoeyLLM-Team.
 
 ## Templates
 
 | Purpose | Template |
-|---|---|
+| --- | --- |
 | Tutor, client, Sprint Review, retrospective, and formal internal meeting minutes | `professional-meeting-minutes-template.md` |
 | Weekly report | `Weeklyreporttemplate.md` |
 
-## AI Prompt
+## Publication rules
 
-Team members can copy the prompt below into an AI assistant. The raw notes may be written in Chinese or English, but the final meeting minutes should be generated in English.
+- Use `professional-meeting-minutes-template.md` for every assessed or formal meeting.
+- Use English and remove every instructional comment and placeholder before publication.
+- List only attendees confirmed by the meeting notes, recording, calendar, or participants. Never assume attendance.
+- Keep unconfirmed attendance or facts marked `To be confirmed` and keep the document in Draft status.
+- Use one accountable owner per action. Other team members may be listed as contributors.
+- Use exact dates, direct evidence links, and the status vocabulary defined by the template.
+- `Done`, `Tested`, `Deployed`, and `Client-confirmed` require evidence appropriate to that status.
+- Minutes are Approved only after Nuo Chen, the nominated reviewer, has checked names, dates, links, decisions, actions, and evidence status.
+
+## File naming
+
+| Record | Filename |
+| --- | --- |
+| Tutor meeting minutes | `tutor-minutes-YYYY-MM-DD.md` |
+| Client meeting minutes | `client-minutes-YYYY-MM-DD.md` |
+| Formal internal meeting | `internal-minutes-YYYY-MM-DD.md` |
+| Sprint retrospective | `internal-retrospective-YYYY-MM-DD.md` |
+| Weekly report | `report.md` |
+
+Legacy filenames remain in their existing week folders so that historical links do not break. Each week README identifies the authoritative meeting record.
+
+## AI prompt
 
 ```text
-请为 JoeyLLM-Team 生成一份正式的英文 Meeting Minutes。
+Please generate formal English meeting minutes for Southern-cross AI / JoeyLLM-Team.
 
-请先从 GitHub 读取通用会议纪要模板：
-Repository: joeyllm/JoeyLLM-Team
-Template path: management/weekly-reports-END/templates/professional-meeting-minutes-template.md
+Read and follow:
+management/weekly-reports-END/templates/professional-meeting-minutes-template.md
 
-默认项目信息：
-- Project: JoeyLLM / ChatJoey
-- Client: Matthew Altenburg
-- Tutor: Annie Sun
-- 默认组员：
-  - Nuo Chen
-  - Wen Sun
-  - Xiang Chang
-  - Xingyu Li
-  - Yingzhe Xu
+Rules:
+- Do not invent attendance, work, decisions, evidence, test results, deployment status, or client confirmation.
+- Distinguish Planned, Researched, Implemented, Tested, Deployed, and Client-confirmed.
+- Give each action a unique ID, one accountable owner, an exact due date, acceptance criteria, and an evidence location.
+- Record the team response and outcome for every material Tutor, Client, or team feedback item.
+- Record rationale and affected PBIs/documents for every final decision.
+- Record impact, mitigation, owner, review date, and status for each risk or blocker.
+- Record root cause, process change, success measure, owner, review date, and linked PBI for each improvement.
+- Produce a concise decision-and-action record, not a transcript.
 
-如果我没有特别说明缺席人员，就默认以上五位组员全部出席。
-如果是 Tutor Meeting，默认 Tutor 是 Annie Sun。
-如果是 Client Meeting，默认 Client 是 Matthew Altenburg。
-
-会议基本信息：
-- Meeting type: [Tutor Meeting / Client Meeting / Internal Meeting / Sprint Review / Retrospective]
-- Date: [YYYY-MM-DD]
-- Time: [HH:MM-HH:MM, timezone，如果知道]
-- Sprint / Week: [Sprint X / Week XX]
-- Location / Channel: [Classroom / Online / Email / Teams / Zoom / GitHub, 如果知道]
-- Chair: [Name，如果知道]
-- Minute taker: [Name，如果知道]
-- Next meeting date/time: [YYYY-MM-DD HH:MM，如果知道]
-
-要求：
-- 最终输出必须是英文。
-- 严格按照 GitHub 上的 `professional-meeting-minutes-template.md` 结构生成。
-- 使用正式的大学项目文档语气。
-- 删除模板中的 instructional comments，并替换所有 placeholders。
-- 使用准确日期、具体会议类型和具体人员姓名。
-- 不要编造成果、决定、证据链接或已完成事项。
-- 清楚区分 Planned、Researched、Implemented、Tested、Deployed 和 Client-confirmed 等状态。
-- 每个 action item 必须有唯一 ID、具体 deliverable、一个 accountable owner、due date、status 和 acceptance evidence/location。
-- 每个 material tutor/client/team feedback 都要记录 team response 和 outcome。
-- 每个 final decision 都要包含 rationale 和 affected PBI/document。
-- 每个 risk/blocker 都要包含 impact、mitigation、owner、review date 和 status。
-- 每个 improvement 都要包含 observed problem、root cause、process change、success measure 和 review date。
-- 如果没有最终决定，请在 Decisions section 写明 pending，并创建 action 去 follow up。
-- 如果没有 blocker，请写：`No major blockers were identified.`
-- 如果没有可用 evidence link，请写：`Evidence link to be added after publication.`，不要编造链接。
-- 输出应是 concise decision-and-action record，不要写成逐字 transcript。
-
-原始会议记录：
-[在这里粘贴会议记录，可以是中文或英文]
+Raw meeting notes:
+[Paste verified notes here]
 ```
