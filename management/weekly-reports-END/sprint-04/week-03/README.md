@@ -5,9 +5,8 @@
 | File | Record type | Status |
 | --- | --- | --- |
 | [`tutor-minutes-2026-08-10.md`](tutor-minutes-2026-08-10.md) | Tutor / Sprint progress-review minutes | Draft pending Nuo Chen review |
-| [`internal-retrospective-2026-08-12.md`](internal-retrospective-2026-08-12.md) | Scheduled weekly internal meeting and Sprint retrospective | Scheduled; complete after the meeting |
 | [`system-validation.md`](system-validation.md) | Team validation record | Team-confirmed manual validation |
-| [`research/vector-retrieval-literature-review.md`](research/vector-retrieval-literature-review.md) | Literature review | Research complete; implementation pending |
+| [`research/vector-retrieval-literature-review.md`](research/vector-retrieval-literature-review.md) | Literature review | Research complete; implementation outside Sprint 4 scope |
 
 ## Supporting evidence
 
@@ -27,4 +26,4 @@
 - [Deployment guide](https://github.com/joeyllm/ChatJoey/blob/main/docs/DEPLOYMENT.md)
 - [Qdrant basics](https://github.com/joeyllm/ChatJoey/blob/main/docs/qdrant-basics-en.md)
 
-The PDFs remain supporting artefacts. Formal feedback, decisions, actions, risks, improvement measures, and next-meeting preparation are recorded in Markdown.
+The PDFs remain supporting artefacts. Formal feedback, decisions, actions, risks, improvement measures, action follow-up, and Sprint closure are recorded in Markdown.
