@@ -15,7 +15,7 @@
 | Attendance | Chen Nuo completed the document review; no claim is made that other members attended a synchronous meeting |
 | Apologies / absences | Not applicable to an asynchronous instruction review |
 | Meeting objective | Convert the client's requirements for this week into three GitHub Issues, fifteen verifiable Action Items, and the associated security, branch, and scope controls |
-| Related Sprint Goal / milestone | Proposed Sprint 5 Goal: without deploying, publishing online, or merging into protected branches, complete locally tested mobile-first interface improvements and five isolated Joey Personality prototypes ready for client review |
+| Related Sprint Goal / milestone | Sprint 5 Goal: Enhance ChatJoey’s cross-platform responsiveness, interaction consistency, and usability across representative phone, tablet, and desktop environments, while complying with the client’s local-only development, no-deployment, and protected-branch constraints. Validate the core chat workflows through systematic functional, compatibility, accessibility, and regression testing, and deliver multiple isolated, independently reviewable UI Modes with distinct visual and interaction styles based on the existing Mode architecture, supported by traceable local test evidence for subsequent client review and integration. |
 | Local file location | `D:\COMP8715\semester2\week 4\client-instruction-review-minutes-2026-08-17-v2-en.md` |
 | Approved repository location | `management/weekly-reports-END/sprint-05/week-04/client-instruction-review-minutes-2026-08-17.md` in JoeyLLM-Team; this management record is not part of the ChatJoey interface repository |
 
