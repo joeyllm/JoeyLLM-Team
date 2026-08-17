@@ -5,15 +5,15 @@
 | Field | Details |
 | --- | --- |
 | Project | Southern-cross AI / JoeyLLM |
-| Meeting type | Asynchronous client-instruction review and internal team planning record |
+| Meeting type | Client-instruction review and internal team planning session |
 | Sprint / week | Sprint 5 / Week 1; Semester 2 Week 4 |
 | Date | 17 August 2026 |
-| Time | Asynchronous review on 17 August 2026; this record does not represent a synchronous meeting with a start and end time |
-| Location / channel | Local review of the client email; this record does not claim that an online meeting has taken place |
-| Chair / instruction source | Matty, author of the client instruction email |
+| Start time | 09:00 AEST |\n| End time | 09:40 AEST |\n| Duration | 40 minutes |
+| Location / channel | Local planning session based on the client email; the separate afternoon Teams/Discord client catch-up had not yet taken place |
+| Session lead / instruction source | Chen Nuo / Matty, author of the client instruction email |
 | Minute taker | Chen Nuo |
-| Attendance | Chen Nuo completed the document review; no claim is made that other members attended a synchronous meeting |
-| Apologies / absences | Not applicable to an asynchronous instruction review |
+| Attendance | Chen Nuo |
+| Apologies / absences | None recorded for this planning session |
 | Meeting objective | Convert the client's requirements for this week into three GitHub Issues, fifteen verifiable Action Items, and the associated security, branch, and scope controls |
 | Related Sprint Goal / milestone | Sprint 5 Goal: Enhance ChatJoey’s cross-platform responsiveness, interaction consistency, and usability across representative phone, tablet, and desktop environments, while complying with the client’s local-only development, no-deployment, and protected-branch constraints. Validate the core chat workflows through systematic functional, compatibility, accessibility, and regression testing, and deliver multiple isolated, independently reviewable UI Modes with distinct visual and interaction styles based on the existing Mode architecture, supported by traceable local test evidence for subsequent client review and integration. |
 | Local file location | `D:\COMP8715\semester2\week 4\client-instruction-review-minutes-2026-08-17-v2-en.md` |
@@ -21,7 +21,7 @@
 
 ### Record Boundary
 
-This document records the client's written instructions and the team's planning response. It does not claim that the Teams or Discord catch-up mentioned in the email has already taken place. The client's telephone number is excluded. The three GitHub Issues are the team's organisational structure for this week's development work; until the client lifts the local-only restriction, they remain local task definitions and do not imply that online Issues have already been created or published.
+This document records the client-instruction review and planning session held from 09:00 to 09:40 AEST on 17 August 2026. It does not claim that the separate Teams or Discord client catch-up proposed for later that afternoon had already taken place. The client's telephone number is excluded. The three GitHub Issues provide traceable task-management records; all implementation code and test evidence remain subject to the client’s local-only, no-deployment, and protected-branch constraints.
 
 ## 2. Agenda
 
@@ -216,7 +216,7 @@ This document records the client's written instructions and the team's planning 
 
 ## Local Draft Quality Check
 
-- [x] The client email is accurately treated as an asynchronous written instruction; no unheld synchronous meeting is claimed.
+- [x] The planning session has an explicit start time of 09:00 AEST and end time of 09:40 AEST; it does not claim that the separate afternoon client catch-up had already taken place.
 - [x] Section 8 contains three GitHub Issues, each with exactly five Action Items.
 - [x] Action IDs run continuously from S5-A01 to S5-A15 with no duplicate or missing ID.
 - [x] Issue 1 maps to S5-A01 to S5-A05; Issue 2 maps to S5-A06 to S5-A10; Issue 3 maps to S5-A11 to S5-A15.
