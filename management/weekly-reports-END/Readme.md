@@ -4,7 +4,15 @@ Meeting minutes and weekly progress reports for Semester 2, 2026. One folder per
 
 As a **continuing team** we run **Sprint 4 → Sprint 6**, then finalise the deliverable with the client and present at Showcase.
 
+## 🎯 Current Sprint Goal
+
+> Enhance ChatJoey’s cross-platform responsiveness, interaction consistency, and usability across representative phone, tablet, and desktop environments, while complying with the client’s local-only development, no-deployment, and protected-branch constraints. Validate the core chat workflows through systematic functional, compatibility, accessibility, and regression testing, and deliver multiple isolated, independently reviewable UI Modes with distinct visual and interaction styles based on the existing Mode architecture, supported by traceable local test evidence for subsequent client review and integration.
+
+- [Formal Sprint 5 goal and delivery boundaries](../SPRINT5_GOALS.md)
+- [Sprint 5 evidence index](sprint-05/README.md)
+
 ---
+
 
 ## 📅 Semester 2 Calendar
 
