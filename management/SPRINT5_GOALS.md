@@ -4,6 +4,8 @@
 **Status:** Current team Sprint Goal  
 **Effective date:** 17 August 2026
 
+**Improve the responsiveness of the current interface across selected desktop, tablet, and mobile screen sizes, and develop separate Joey personality modes using the existing modes template.**
+
 > Enhance ChatJoey’s cross-platform responsiveness, interaction consistency, and usability across representative phone, tablet, and desktop environments, while complying with the client’s local-only development, no-deployment, and protected-branch constraints. Validate the core chat workflows through systematic functional, compatibility, accessibility, and regression testing, and deliver multiple isolated, independently reviewable UI Modes with distinct visual and interaction styles based on the existing Mode architecture, supported by traceable local test evidence for subsequent client review and integration.
 
 ## Intended Outcomes
