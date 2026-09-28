@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "input": {
+    "path_pattern": "/home/jovyan/hash_output/part_*.parquet",
+    "file_count": 57,
+    "row_count": 6008596,
+    "columns_scanned": [
+      "text",
+      "token_count"
+    ]
+  },
+  "text_integrity": {
+    "null_text": 0,
+    "empty_text": 0,
+    "whitespace_only_text": 0,
+    "empty_after_unicode_whitespace_trim": 0
+  },
+  "character_length": {
+    "count": 6008596,
+    "min": 1262.0,
+    "mean": 10406.43527073546,
+    "p01": 4293.0,
+    "p05": 4649.0,
+    "p10": 4882.0,
+    "median": 6724.0,
+    "p90": 16004.0,
+    "p95": 24395.0,
+    "p99": 59326.09999999963,
+    "max": 596750.0
+  },
+  "newline_count": {
+    "count": 6008596,
+    "min": 0.0,
+    "mean": 43.64793805408119,
+    "p01": 5.0,
+    "p05": 10.0,
+    "p10": 14.0,
+    "median": 31.0,
+    "p90": 71.0,
+    "p95": 101.0,
+    "p99": 244.0,
+    "max": 8192.0
+  },
+  "documents_with_newline": {
+    "count": 5995081,
+    "percentage": 99.77507224649486
+  },
+  "chars_per_stored_token": {
+    "count": 6008596,
+    "min": 0.601257445400397,
+    "mean": 4.515713112042708,
+    "p01": 3.7405703417744736,
+    "p05": 3.9725776965265083,
+    "p10": 4.097732478738555,
+    "median": 4.509120280405211,
+    "p90": 4.944315002383158,
+    "p95": 5.072283015782096,
+    "p99": 5.312651747821013,
+    "max": 6.4618410700236035
+  },
+  "runtime": {
+    "elapsed_seconds": 275.576518535614,
+    "rows_per_second": 21803.729983704987
+  }
+}

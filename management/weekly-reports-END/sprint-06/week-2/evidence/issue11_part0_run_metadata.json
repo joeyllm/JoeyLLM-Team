@@ -1,0 +1,67 @@
+{
+  "chunks_written": 1334973,
+  "command": [
+    "/home/jovyan/chunking_sprint/pipeline/run_chunking.py",
+    "--input",
+    "/home/jovyan/hash_output/part_0.parquet",
+    "--output-dir",
+    "/home/jovyan/chunking_sprint/runs/issue11_token_part0",
+    "--method",
+    "token",
+    "--progress-every",
+    "10000",
+    "--overwrite"
+  ],
+  "configuration": {
+    "chunk_overlap": 0,
+    "chunk_size": 2048,
+    "tokenizer": "character"
+  },
+  "elapsed_seconds": 344.77283667610027,
+  "failed_documents": 0,
+  "input_file_count": 1,
+  "input_files": [
+    "/home/jovyan/hash_output/part_0.parquet"
+  ],
+  "input_pattern": "/home/jovyan/hash_output/part_0.parquet",
+  "input_rows_available": 227628,
+  "max_documents": null,
+  "method": "token",
+  "output_files": [
+    "/home/jovyan/chunking_sprint/runs/issue11_token_part0/part_0.chunks.parquet"
+  ],
+  "output_schema_fields": [
+    "input_file",
+    "source_file",
+    "source_row_number",
+    "document_id",
+    "source_dump",
+    "source_url",
+    "source_date",
+    "source_file_path",
+    "source_language",
+    "source_language_score",
+    "source_token_count",
+    "source_hash",
+    "source_simhash",
+    "source_char_length",
+    "source_newline_count",
+    "source_chars_per_stored_token",
+    "sample_groups",
+    "method",
+    "chunker_config",
+    "chunk_index",
+    "start_index",
+    "end_index",
+    "token_count",
+    "char_length",
+    "text"
+  ],
+  "processed_documents": 227628,
+  "python_executable": "/home/jovyan/chunking_sprint/chonkie/bin/python",
+  "source_identity_policy": {
+    "frozen_dataset": "Use input Parquet filename and zero-based row number.",
+    "representative_samples": "Preserve source_file and file_row_number from input."
+  },
+  "status": "completed"
+}

@@ -1,0 +1,282 @@
+{
+  "status": "completed",
+  "input": {
+    "path_pattern": "/home/jovyan/hash_output/part_*.parquet",
+    "file_count": 57,
+    "row_count": 6008596,
+    "columns_scanned": [
+      "token_count",
+      "language",
+      "language_score"
+    ]
+  },
+  "null_counts": {
+    "token_count": 0,
+    "language": 0,
+    "language_score": 0
+  },
+  "token_count": {
+    "count": 6008596,
+    "min": 1025.0,
+    "mean": 2329.510860773465,
+    "median": 1480.0,
+    "p90": 3562.0,
+    "p95": 5476.0,
+    "p99": 13364.0,
+    "max": 144236.0
+  },
+  "language_score": {
+    "count": 6008596,
+    "min": 0.9600000381469727,
+    "mean": 0.9718095480004139,
+    "median": 0.9705367684364319,
+    "p90": 0.9838784337043762,
+    "p95": 0.9869280010461807,
+    "p99": 0.9913761645555497,
+    "max": 0.9985507130622864
+  },
+  "language": {
+    "unique_non_null_values": 1,
+    "top_20": [
+      {
+        "language": "en",
+        "count": 6008596,
+        "percentage": 100.0
+      }
+    ]
+  },
+  "runtime": {
+    "elapsed_seconds": 5.0783843994140625,
+    "rows_per_second": 1183170.7738967661
+  },
+  "per_file_rows": [
+    {
+      "file": "part_0.parquet",
+      "rows": 227628
+    },
+    {
+      "file": "part_1.parquet",
+      "rows": 100878
+    },
+    {
+      "file": "part_2.parquet",
+      "rows": 43334
+    },
+    {
+      "file": "part_3.parquet",
+      "rows": 47923
+    },
+    {
+      "file": "part_4.parquet",
+      "rows": 55134
+    },
+    {
+      "file": "part_5.parquet",
+      "rows": 28671
+    },
+    {
+      "file": "part_6.parquet",
+      "rows": 25494
+    },
+    {
+      "file": "part_7.parquet",
+      "rows": 54319
+    },
+    {
+      "file": "part_8.parquet",
+      "rows": 29722
+    },
+    {
+      "file": "part_9.parquet",
+      "rows": 62452
+    },
+    {
+      "file": "part_10.parquet",
+      "rows": 40375
+    },
+    {
+      "file": "part_11.parquet",
+      "rows": 51774
+    },
+    {
+      "file": "part_12.parquet",
+      "rows": 84038
+    },
+    {
+      "file": "part_13.parquet",
+      "rows": 75460
+    },
+    {
+      "file": "part_14.parquet",
+      "rows": 144798
+    },
+    {
+      "file": "part_15.parquet",
+      "rows": 67121
+    },
+    {
+      "file": "part_16.parquet",
+      "rows": 104408
+    },
+    {
+      "file": "part_17.parquet",
+      "rows": 107435
+    },
+    {
+      "file": "part_18.parquet",
+      "rows": 117679
+    },
+    {
+      "file": "part_19.parquet",
+      "rows": 79632
+    },
+    {
+      "file": "part_20.parquet",
+      "rows": 119025
+    },
+    {
+      "file": "part_21.parquet",
+      "rows": 101418
+    },
+    {
+      "file": "part_22.parquet",
+      "rows": 77315
+    },
+    {
+      "file": "part_23.parquet",
+      "rows": 81684
+    },
+    {
+      "file": "part_24.parquet",
+      "rows": 93952
+    },
+    {
+      "file": "part_25.parquet",
+      "rows": 104727
+    },
+    {
+      "file": "part_26.parquet",
+      "rows": 105151
+    },
+    {
+      "file": "part_27.parquet",
+      "rows": 97129
+    },
+    {
+      "file": "part_28.parquet",
+      "rows": 111294
+    },
+    {
+      "file": "part_29.parquet",
+      "rows": 112450
+    },
+    {
+      "file": "part_30.parquet",
+      "rows": 108189
+    },
+    {
+      "file": "part_31.parquet",
+      "rows": 101032
+    },
+    {
+      "file": "part_32.parquet",
+      "rows": 107411
+    },
+    {
+      "file": "part_33.parquet",
+      "rows": 127161
+    },
+    {
+      "file": "part_34.parquet",
+      "rows": 131783
+    },
+    {
+      "file": "part_35.parquet",
+      "rows": 156336
+    },
+    {
+      "file": "part_36.parquet",
+      "rows": 140515
+    },
+    {
+      "file": "part_37.parquet",
+      "rows": 138925
+    },
+    {
+      "file": "part_38.parquet",
+      "rows": 151700
+    },
+    {
+      "file": "part_39.parquet",
+      "rows": 89479
+    },
+    {
+      "file": "part_40.parquet",
+      "rows": 85896
+    },
+    {
+      "file": "part_41.parquet",
+      "rows": 156255
+    },
+    {
+      "file": "part_42.parquet",
+      "rows": 103585
+    },
+    {
+      "file": "part_43.parquet",
+      "rows": 177823
+    },
+    {
+      "file": "part_44.parquet",
+      "rows": 94396
+    },
+    {
+      "file": "part_45.parquet",
+      "rows": 221072
+    },
+    {
+      "file": "part_46.parquet",
+      "rows": 198328
+    },
+    {
+      "file": "part_47.parquet",
+      "rows": 153663
+    },
+    {
+      "file": "part_48.parquet",
+      "rows": 158871
+    },
+    {
+      "file": "part_49.parquet",
+      "rows": 103895
+    },
+    {
+      "file": "part_50.parquet",
+      "rows": 165971
+    },
+    {
+      "file": "part_51.parquet",
+      "rows": 73217
+    },
+    {
+      "file": "part_52.parquet",
+      "rows": 131355
+    },
+    {
+      "file": "part_53.parquet",
+      "rows": 105058
+    },
+    {
+      "file": "part_54.parquet",
+      "rows": 116036
+    },
+    {
+      "file": "part_55.parquet",
+      "rows": 108986
+    },
+    {
+      "file": "part_56.parquet",
+      "rows": 49238
+    }
+  ]
+}

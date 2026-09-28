@@ -1,0 +1,2 @@
+chonkie[model2vec]==1.7.0
+pyarrow==25.0.0

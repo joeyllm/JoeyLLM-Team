@@ -1,0 +1,21 @@
+{
+  "char_length_mismatches": 0,
+  "chunk_files": [
+    "/home/jovyan/chunking_sprint/runs/issue10_token/representative_samples.chunks.parquet"
+  ],
+  "chunks_checked": 1078,
+  "document_id_mismatches": 0,
+  "documents_checked": 32,
+  "empty_chunks": 0,
+  "hard_failure_events": 0,
+  "invalid_index_ranges": 0,
+  "missing_required_fields": 0,
+  "run_failed_documents": 0,
+  "source_lookup_failures": 0,
+  "source_slice_mismatches": 0,
+  "status": "pass",
+  "warning_count": 0,
+  "warnings": [],
+  "whitespace_only_chunks": 0,
+  "zero_token_chunks": 0
+}

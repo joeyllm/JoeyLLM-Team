@@ -1,0 +1,21 @@
+{
+  "char_length_mismatches": 0,
+  "chunk_index_mismatches": 0,
+  "chunks_checked": 1334973,
+  "document_id_mismatches": 0,
+  "documents_checked": 227628,
+  "documents_without_chunks": 0,
+  "elapsed_seconds": 30.97876600199379,
+  "empty_chunks": 0,
+  "extra_chunks": 0,
+  "failure_events": 0,
+  "invalid_index_ranges": 0,
+  "method_mismatches": 0,
+  "missing_chunker_config": 0,
+  "source_file_mismatches": 0,
+  "source_row_order_errors": 0,
+  "source_slice_mismatches": 0,
+  "status": "pass",
+  "whitespace_only_chunks": 0,
+  "zero_token_chunks": 0
+}

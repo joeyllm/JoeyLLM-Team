@@ -1,0 +1,5 @@
+return_code: 0
+wall_seconds: 345.354027495021
+user_cpu_seconds: 342.61332
+system_cpu_seconds: 6.371898
+max_rss_kb: 1512640
