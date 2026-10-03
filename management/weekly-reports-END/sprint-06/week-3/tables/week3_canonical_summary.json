@@ -1,0 +1,105 @@
+{
+  "generation_policy": {
+    "new_chunking_runs": false,
+    "numeric_rounding": false,
+    "source_only_transformation": true,
+    "unsupported_overall_ranking": false
+  },
+  "purpose": "Canonical machine-readable tables for the Week 3 final evaluation report.",
+  "schema_version": 1,
+  "semantic_notes": {
+    "long_runtime_measurement_class": "single_run_descriptive",
+    "matched_run_memory_measurement_status": "not_measured",
+    "representative_group_overlap": true,
+    "scaled_memory_measurement": {
+      "extrapolated": false,
+      "max_rss_kb": 1512640,
+      "scope": "Week 2 scaled TokenChunker run only"
+    },
+    "small_chunk_definition": {
+      "field": "char_length",
+      "operator": "<",
+      "threshold": 256
+    },
+    "tokenizer_comparability_note": "TokenChunker and RecursiveChunker baseline/matched configurations use the character tokenizer, while SemanticChunker uses its local Model2Vec tokenizer. Token-count statistics are therefore not treated as directly comparable quality units."
+  },
+  "table_row_counts": {
+    "baseline_results": 3,
+    "computational_cost": 3,
+    "long_document_runtime": 9,
+    "matched_granularity": 3,
+    "parameter_sensitivity": 11,
+    "reliability_qa": 24,
+    "robustness_summary": 30,
+    "scaled_engineering_evidence": 1
+  },
+  "tables": {
+    "baseline_results": {
+      "path": "week3/reports/tables/baseline_results.csv",
+      "rows": 3,
+      "sha256": "2fa9fcad81124400981faa3ff7a7431e2040a06387d5eb8ca88b194a6dd52226",
+      "sources": [
+        "week3/results/baseline_token/summary.json",
+        "week3/results/baseline_recursive/summary.json",
+        "week3/results/baseline_semantic/summary.json"
+      ]
+    },
+    "computational_cost": {
+      "path": "week3/reports/tables/computational_cost.csv",
+      "rows": 3,
+      "sha256": "cd7c7c547117c1d6f31769bd878ca2bf2a0f712eee2a5d778f49acec931eaf8e",
+      "sources": [
+        "week3/results/issue17/robustness_summary.json"
+      ]
+    },
+    "long_document_runtime": {
+      "path": "week3/reports/tables/long_document_runtime.csv",
+      "rows": 9,
+      "sha256": "3a4da8c576cdb3eaecd8c4fce9e44c815e51f0e35cedc39ac9e5c882d27e9954",
+      "sources": [
+        "week3/results/issue17/long_runtime/long_runtime_summary.json"
+      ]
+    },
+    "matched_granularity": {
+      "path": "week3/reports/tables/matched_granularity.csv",
+      "rows": 3,
+      "sha256": "c58d750b09fe67e205d2c1bda73e4cd0529010c0c2c92854a7b26aad341135a9",
+      "sources": [
+        "week3/results/issue16/matched_comparison/matched_comparison.json",
+        "week3/results/issue16/matched_comparison/matched_comparison.csv"
+      ]
+    },
+    "parameter_sensitivity": {
+      "path": "week3/reports/tables/parameter_sensitivity.csv",
+      "rows": 11,
+      "sha256": "55a3cd7825ca61f9d8c988d10092038eb4fb20568b837db8e95a00ecb5e3c039",
+      "sources": [
+        "week3/results/parameter_sensitivity/parameter_sensitivity_summary.json"
+      ]
+    },
+    "reliability_qa": {
+      "path": "week3/reports/tables/reliability_qa.csv",
+      "rows": 24,
+      "sha256": "addcb5df6b8ac224135749f4aaf466ea2ee5730239d6ef1725d24be8feb689e2",
+      "sources": [
+        "week3/reports/issue18_evidence_inventory.json"
+      ]
+    },
+    "robustness_summary": {
+      "path": "week3/reports/tables/robustness_summary.csv",
+      "rows": 30,
+      "sha256": "fd76986d1e7dcce6dd588fef910977ba46f8caa5ce9626c6bdf1f22aa33d8b5f",
+      "sources": [
+        "week3/results/issue17/robustness_summary.json"
+      ]
+    },
+    "scaled_engineering_evidence": {
+      "path": "week3/reports/tables/scaled_engineering_evidence.csv",
+      "rows": 1,
+      "sha256": "4ebfe5021730af14fc114e6958c89460826c3e572db60dbf38bdb4a226c06a48",
+      "sources": [
+        "week3/results/issue17/scaled_engineering_evidence.json"
+      ]
+    }
+  }
+}

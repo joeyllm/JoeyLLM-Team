@@ -1,0 +1,4 @@
+chunks_per_second,documents_per_second,elapsed_seconds,failed_documents,memory_measurement,method,output_bytes,processed_documents,qa_status,run_id,seconds_per_document,total_chunks,warning_count,source_summary
+9104.07909910983,111.06768249009323,0.28811261100054253,0,,token,855496,32,pass,token_cal_cs839,0.009003519093766954,2623,0,week3/results/issue17/robustness_summary.json
+25936.585364994975,289.08768083588967,0.1106930599999032,0,,recursive,883148,32,pass,recursive_cal_cs1025,0.003459158124996975,2871,0,week3/results/issue17/robustness_summary.json
+700.5008714067754,10.469886915000847,3.056384491999779,0,,semantic,874593,32,pass,semantic_cal_th030,0.0955120153749931,2141,1,week3/results/issue17/robustness_summary.json
