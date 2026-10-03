@@ -1,0 +1,12 @@
+run_id,method,chunk_size,tokenizer,chunk_overlap,min_characters_per_chunk,embedding_model,threshold,experiment_axis,is_baseline
+token_cs1024,token,1024,character,0,,,,chunk_size,false
+token_cs2048,token,2048,character,0,,,,chunk_size,true
+token_cs4096,token,4096,character,0,,,,chunk_size,false
+recursive_cs1024,recursive,1024,character,,24,,,chunk_size,false
+recursive_cs2048,recursive,2048,character,,24,,,chunk_size,true
+recursive_cs4096,recursive,4096,character,,24,,,chunk_size,false
+semantic_cs1024,semantic,1024,,,,minishlab/potion-base-32M,0.8,chunk_size,false
+semantic_cs2048,semantic,2048,,,,minishlab/potion-base-32M,0.8,chunk_size,true
+semantic_cs4096,semantic,4096,,,,minishlab/potion-base-32M,0.8,chunk_size,false
+semantic_th070,semantic,2048,,,,minishlab/potion-base-32M,0.7,threshold,false
+semantic_th090,semantic,2048,,,,minishlab/potion-base-32M,0.9,threshold,false
