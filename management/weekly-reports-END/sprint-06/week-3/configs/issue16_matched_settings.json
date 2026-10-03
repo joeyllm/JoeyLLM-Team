@@ -1,0 +1,55 @@
+{
+  "matched_runs": {
+    "recursive": {
+      "chunk_size": 1025,
+      "method": "recursive",
+      "min_characters_per_chunk": 24,
+      "run_id": "recursive_cal_cs1025",
+      "tokenizer": "character"
+    },
+    "semantic": {
+      "chunk_size": 2048,
+      "embedding_model": "minishlab/potion-base-32M",
+      "method": "semantic",
+      "run_id": "semantic_cal_th030",
+      "threshold": 0.3
+    },
+    "token": {
+      "chunk_overlap": 0,
+      "chunk_size": 839,
+      "method": "token",
+      "run_id": "token_cal_cs839",
+      "tokenizer": "character"
+    }
+  },
+  "matching_rule": {
+    "metric_relative_spread": "(max - min) / mean",
+    "selection_primary": "minimum worst relative spread",
+    "selection_tiebreak": "minimum mean relative spread"
+  },
+  "matching_tolerance": 0.3,
+  "observed_matching_metrics": {
+    "mean_chunk_char_length": {
+      "recursive": 760.148380355,
+      "relative_spread": 0.29773931,
+      "semantic": 1019.330219524,
+      "token": 832.019062143
+    },
+    "mean_chunks_per_document": {
+      "recursive": 89.71875,
+      "relative_spread": 0.28683694,
+      "semantic": 66.90625,
+      "token": 81.96875
+    },
+    "median_chunk_char_length": {
+      "recursive": 827.0,
+      "relative_spread": 0.29894644,
+      "semantic": 612.0,
+      "token": 839.0
+    }
+  },
+  "source_documents": 32,
+  "status": "matched",
+  "version": 1,
+  "worst_relative_spread": 0.29894644
+}
