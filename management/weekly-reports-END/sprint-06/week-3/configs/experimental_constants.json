@@ -1,0 +1,15 @@
+{
+  "comparison_rules": {
+    "equal_configured_chunk_size_is_not_assumed_equivalent_across_methods": true,
+    "preserve_source_provenance": true,
+    "raw_chunk_count_is_not_quality_metric": true,
+    "run_qa_for_every_output": true,
+    "same_representative_documents": true,
+    "separate_warnings_from_failures": true
+  },
+  "frozen_dataset_pattern": "/home/jovyan/hash_output/part_*.parquet",
+  "pipeline": "/home/jovyan/chunking_sprint/pipeline/run_chunking.py",
+  "qa_script": "/home/jovyan/chunking_sprint/pipeline/validate_chunks.py",
+  "representative_document_count": 32,
+  "representative_input": "/home/jovyan/hash_output/_audit/profiling/representative_samples.parquet"
+}
