@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "percentiles": [90, 95, 99],
+  "document_identity_fields": [
+    "source_file",
+    "source_row_number",
+    "document_id"
+  ],
+  "chunk_metrics": {
+    "chunks_per_document": [
+      "min",
+      "mean",
+      "median",
+      "p90",
+      "p95",
+      "p99",
+      "max"
+    ],
+    "char_length": [
+      "min",
+      "mean",
+      "median",
+      "p90",
+      "p95",
+      "p99",
+      "max"
+    ],
+    "token_count": [
+      "min",
+      "mean",
+      "median",
+      "p90",
+      "p95",
+      "p99",
+      "max"
+    ]
+  },
+  "boundary_precedence": [
+    "document_end",
+    "paragraph_boundary",
+    "newline_boundary",
+    "sentence_boundary",
+    "whitespace_boundary",
+    "other_boundary"
+  ],
+  "sample_group_separator": ",",
+  "exclude_document_end_from_internal_boundary_percentages": true,
+  "required_output_formats": [
+    "json",
+    "csv",
+    "markdown"
+  ]
+}

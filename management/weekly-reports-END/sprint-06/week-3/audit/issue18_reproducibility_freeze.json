@@ -1,0 +1,83 @@
+{
+  "derived_issue17_inputs": [
+    {
+      "bytes": 1103011,
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_long_documents.parquet",
+      "sha256": "9522060a1af0789f3774df1773d37ec52d915bc0c129ea73c128ee4f1a71a51c"
+    },
+    {
+      "bytes": 48587,
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_length_p95.parquet",
+      "sha256": "8d6de4a0b4790f4f9d38af748436a612343672b4a5dd43cd7779b93f878f7a68"
+    },
+    {
+      "bytes": 103464,
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_length_p99.parquet",
+      "sha256": "35d13d0abfea76b0a5e065752d71d7d2123ddc8c7f2ce6e9de66a598a35c559e"
+    },
+    {
+      "bytes": 960197,
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_length_max.parquet",
+      "sha256": "c25b96717ae613e19367f43adafae52c2f144e74bdc18fca17793138316382b0"
+    },
+    {
+      "bytes": 2421,
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_long_runtime_inputs.json",
+      "sha256": "94dd83e26057c477bdef420a20265fe54c6a62a7f17db63506862a39d2ebe691"
+    }
+  ],
+  "environment": {
+    "environment_snapshot": "/home/jovyan/chunking_sprint/week3/configs/environment_snapshot.json",
+    "environment_snapshot_sha256": "7f53d84d321c0d1606a4f71f51668d25f5ed9bcc0abd9e8f06253c31745fa632",
+    "requirements": "/home/jovyan/chunking_sprint/requirements.txt",
+    "requirements_lock": "/home/jovyan/chunking_sprint/requirements-lock.txt",
+    "requirements_lock_sha256": "4577a5ea7d694d294aa51b5572e8e390c039e29cdac310acab5540dbbb22a203",
+    "requirements_sha256": "76741846925216c2aca4cfab164c6a9cb568057a26701bbf0c7860ed7642e242"
+  },
+  "full_dataset_freeze": {
+    "freeze_record_path": "/home/jovyan/hash_output/_audit/dataset_freeze.md",
+    "freeze_record_sha256": "77c5bab99eb5e36a30016cad92216e1db0c7218ebd9ac1788f6c8d16ff7f0230",
+    "manifest_entries": 57,
+    "manifest_path": "/home/jovyan/hash_output/_audit/chunking_input_sha256_manifest.txt",
+    "manifest_sha256": "9b317d36d9216a0cd470624a96481eb60c4be1997013d252d4e535e54c54b3ad",
+    "note": "The existing 57-file dataset SHA256 manifest is preserved as the full frozen-dataset integrity evidence. Issue 18 does not rehash the approximately 25 GiB dataset."
+  },
+  "git": {
+    "available": true,
+    "branch": "main",
+    "head": null,
+    "head_available": false,
+    "head_error": "fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'",
+    "repository_toplevel": "/home/jovyan/chunking_sprint",
+    "working_tree_lines": [
+      "A  .gitignore",
+      "A  environment.md",
+      "AM requirements-lock.txt",
+      "AM requirements.txt",
+      "A  smoke_test.log",
+      "A  tests/smoke_test_chonkie.py",
+      "?? evaluation_metrics.md",
+      "?? pipeline/",
+      "?? prototypes/",
+      "?? runs/",
+      "?? test-results/",
+      "?? tests/integration_test_report.py",
+      "?? tests/smoke_test_semantic.py",
+      "?? week1_experiment_protocol.md",
+      "?? week2_report.md",
+      "?? week3/",
+      "?? week3_handoff.md"
+    ]
+  },
+  "issue": 18,
+  "representative_input": {
+    "bytes": 1206500,
+    "current_sha256": "3f94e75b152e2cc41cbddf9b5ad7a6a42477b9627b510db08d91d4e5f6a70caf",
+    "expected_sha256": "3f94e75b152e2cc41cbddf9b5ad7a6a42477b9627b510db08d91d4e5f6a70caf",
+    "hash_manifest": "/home/jovyan/chunking_sprint/week3/configs/week3_input_sha256.txt",
+    "hash_manifest_line": 1,
+    "path": "/home/jovyan/hash_output/_audit/profiling/representative_samples.parquet",
+    "status": "match"
+  },
+  "schema_version": 1
+}

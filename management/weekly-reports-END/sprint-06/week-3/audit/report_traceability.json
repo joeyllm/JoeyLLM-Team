@@ -1,0 +1,166 @@
+{
+  "canonical_summary": "week3/reports/tables/week3_canonical_summary.json",
+  "canonical_summary_sha256": "b96c36259df159e60c1250609b4b66678b474d62f7f97d96d383c8f2ef0328d7",
+  "comparison_table_index": "week3/reports/final_comparison_tables.md",
+  "comparison_table_index_sha256": "6e6001e0a8c0e2beceba1f502c0afa3eac81e9f19543b1bf969ce908a6ddfc15",
+  "report": "week3/reports/week3_final_evaluation.md",
+  "report_generation": {
+    "canonical_numeric_rounding": false,
+    "canonical_tables_only_for_experiment_numbers": true,
+    "new_chunking_runs": false,
+    "report_display_rounding": true,
+    "unsupported_overall_winner": false
+  },
+  "report_sha256": "9f3c2f9177d3adabc8e98042f27ae01c7a42a188b8afa0f4211efe70f95ec14f",
+  "schema_version": 1,
+  "sections": {
+    "1.experimental_setup": [
+      {
+        "bytes": 95,
+        "path": "week3/configs/environment_snapshot.json",
+        "sha256": "7f53d84d321c0d1606a4f71f51668d25f5ed9bcc0abd9e8f06253c31745fa632"
+      },
+      {
+        "bytes": 403,
+        "path": "week3/configs/baseline_configs.json",
+        "sha256": "1798a709ba303b3a7fda191b12715e6e0c593a00e494dbbcde1a3893103184a9"
+      },
+      {
+        "bytes": 687,
+        "path": "week3/configs/experimental_constants.json",
+        "sha256": "02b81adf6bf0220e6e943bc0d4beee3ccffbbe5c3f1f568740a5065fe686d875"
+      },
+      {
+        "bytes": 6176,
+        "path": "week3/week3_experiment_plan.md",
+        "sha256": "6a6c598f1fe41a722382c8e38a2bbf733ec408449f19320294869b755bea385f"
+      },
+      {
+        "bytes": 4802,
+        "path": "week3/configs/evaluation_metric_spec.md",
+        "sha256": "5888db3eacdf8ffe5e1abbd195623ec0c5bf25856294ad03544fa0e857de2eb1"
+      },
+      {
+        "bytes": 3652,
+        "path": "week3/reports/issue18_reproducibility_freeze.json",
+        "sha256": "8dc0889c6ac2c9ecfa6321ad3717541bda457890a0fdf9b84be2a1629c1403f8"
+      }
+    ],
+    "2.baseline_results": [
+      {
+        "bytes": 1464,
+        "path": "week3/reports/tables/baseline_results.csv",
+        "sha256": "2fa9fcad81124400981faa3ff7a7431e2040a06387d5eb8ca88b194a6dd52226"
+      }
+    ],
+    "3.parameter_sensitivity": [
+      {
+        "bytes": 4863,
+        "path": "week3/reports/tables/parameter_sensitivity.csv",
+        "sha256": "55a3cd7825ca61f9d8c988d10092038eb4fb20568b837db8e95a00ecb5e3c039"
+      }
+    ],
+    "4.matched_granularity": [
+      {
+        "bytes": 1422,
+        "path": "week3/configs/issue16_matched_settings.json",
+        "sha256": "7b01ecb5593c3b3c9f08d041a2186cdd2d3930ffe0011da273f2d13bfc550fbb"
+      },
+      {
+        "bytes": 2196,
+        "path": "week3/reports/tables/matched_granularity.csv",
+        "sha256": "c58d750b09fe67e205d2c1bda73e4cd0529010c0c2c92854a7b26aad341135a9"
+      }
+    ],
+    "5.robustness": [
+      {
+        "bytes": 5891,
+        "path": "week3/reports/tables/robustness_summary.csv",
+        "sha256": "fd76986d1e7dcce6dd588fef910977ba46f8caa5ce9626c6bdf1f22aa33d8b5f"
+      },
+      {
+        "bytes": 2521,
+        "path": "week3/reports/tables/long_document_runtime.csv",
+        "sha256": "3a4da8c576cdb3eaecd8c4fce9e44c815e51f0e35cedc39ac9e5c882d27e9954"
+      }
+    ],
+    "6.computational_cost": [
+      {
+        "bytes": 738,
+        "path": "week3/reports/tables/computational_cost.csv",
+        "sha256": "cd7c7c547117c1d6f31769bd878ca2bf2a0f712eee2a5d778f49acec931eaf8e"
+      },
+      {
+        "bytes": 880,
+        "path": "week3/reports/tables/scaled_engineering_evidence.csv",
+        "sha256": "4ebfe5021730af14fc114e6958c89460826c3e572db60dbf38bdb4a226c06a48"
+      }
+    ],
+    "7.reliability_qa": [
+      {
+        "bytes": 6943,
+        "path": "week3/reports/tables/reliability_qa.csv",
+        "sha256": "addcb5df6b8ac224135749f4aaf466ea2ee5730239d6ef1725d24be8feb689e2"
+      },
+      {
+        "bytes": 44134,
+        "path": "week3/reports/issue18_evidence_inventory.json",
+        "sha256": "72e3f7e1d0d93d80d3db135ceea7530e42fc8c46f77de1c6c6c086373e3191d7"
+      },
+      {
+        "bytes": 3652,
+        "path": "week3/reports/issue18_reproducibility_freeze.json",
+        "sha256": "8dc0889c6ac2c9ecfa6321ad3717541bda457890a0fdf9b84be2a1629c1403f8"
+      }
+    ],
+    "8.limitations": [
+      {
+        "bytes": 3836,
+        "path": "week3/reports/tables/week3_canonical_summary.json",
+        "sha256": "b96c36259df159e60c1250609b4b66678b474d62f7f97d96d383c8f2ef0328d7"
+      },
+      {
+        "bytes": 3652,
+        "path": "week3/reports/issue18_reproducibility_freeze.json",
+        "sha256": "8dc0889c6ac2c9ecfa6321ad3717541bda457890a0fdf9b84be2a1629c1403f8"
+      }
+    ],
+    "9.conclusions": [
+      {
+        "bytes": 1464,
+        "path": "week3/reports/tables/baseline_results.csv",
+        "sha256": "2fa9fcad81124400981faa3ff7a7431e2040a06387d5eb8ca88b194a6dd52226"
+      },
+      {
+        "bytes": 4863,
+        "path": "week3/reports/tables/parameter_sensitivity.csv",
+        "sha256": "55a3cd7825ca61f9d8c988d10092038eb4fb20568b837db8e95a00ecb5e3c039"
+      },
+      {
+        "bytes": 2196,
+        "path": "week3/reports/tables/matched_granularity.csv",
+        "sha256": "c58d750b09fe67e205d2c1bda73e4cd0529010c0c2c92854a7b26aad341135a9"
+      },
+      {
+        "bytes": 5891,
+        "path": "week3/reports/tables/robustness_summary.csv",
+        "sha256": "fd76986d1e7dcce6dd588fef910977ba46f8caa5ce9626c6bdf1f22aa33d8b5f"
+      },
+      {
+        "bytes": 2521,
+        "path": "week3/reports/tables/long_document_runtime.csv",
+        "sha256": "3a4da8c576cdb3eaecd8c4fce9e44c815e51f0e35cedc39ac9e5c882d27e9954"
+      },
+      {
+        "bytes": 738,
+        "path": "week3/reports/tables/computational_cost.csv",
+        "sha256": "cd7c7c547117c1d6f31769bd878ca2bf2a0f712eee2a5d778f49acec931eaf8e"
+      },
+      {
+        "bytes": 880,
+        "path": "week3/reports/tables/scaled_engineering_evidence.csv",
+        "sha256": "4ebfe5021730af14fc114e6958c89460826c3e572db60dbf38bdb4a226c06a48"
+      }
+    ]
+  }
+}

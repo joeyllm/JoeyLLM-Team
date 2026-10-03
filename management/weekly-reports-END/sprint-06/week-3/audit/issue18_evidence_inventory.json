@@ -1,0 +1,1158 @@
+{
+  "baseline_summaries": [
+    {
+      "method": "token",
+      "processed_documents": 32,
+      "qa_status": "pass",
+      "total_chunks": 1078,
+      "warning_count": 0
+    },
+    {
+      "method": "recursive",
+      "processed_documents": 32,
+      "qa_status": "pass",
+      "total_chunks": 1272,
+      "warning_count": 0
+    },
+    {
+      "method": "semantic",
+      "processed_documents": 32,
+      "qa_status": "pass",
+      "total_chunks": 5629,
+      "warning_count": 1
+    }
+  ],
+  "issue": 18,
+  "issue17": {
+    "long_runtime_all_qa_pass": true,
+    "long_runtime_runs": 9,
+    "representative_documents": 32,
+    "representative_groups": 10,
+    "scaled_chunks": 1334973,
+    "scaled_documents": 227628
+  },
+  "matched_comparison": {
+    "method_count": 3,
+    "source_documents": 32,
+    "worst_relative_spread": 0.29894644
+  },
+  "parameter_sensitivity": {
+    "configuration_count": 11,
+    "record_count": 11
+  },
+  "purpose": "Final Week 3 evidence inventory",
+  "raw_run_evidence": {
+    "metadata": [
+      {
+        "chunks_written": 1078,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 2048,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.2606986769242212,
+        "failed_documents": 0,
+        "label": "baseline.token",
+        "path": "/home/jovyan/chunking_sprint/runs/issue10_token/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 1272,
+        "configuration": {
+          "chunk_size": 2048,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.07586097996681929,
+        "failed_documents": 0,
+        "label": "baseline.recursive",
+        "path": "/home/jovyan/chunking_sprint/runs/issue10_recursive/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 5629,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.8
+        },
+        "elapsed_seconds": 3.2205111460061744,
+        "failed_documents": 0,
+        "label": "baseline.semantic",
+        "path": "/home/jovyan/chunking_sprint/runs/issue10_semantic/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2144,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 1024,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.2757208210000499,
+        "failed_documents": 0,
+        "label": "issue15.token_cs1024",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/token_cs1024/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 546,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 4096,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.2619698939997761,
+        "failed_documents": 0,
+        "label": "issue15.token_cs4096",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/token_cs4096/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2879,
+        "configuration": {
+          "chunk_size": 1024,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.09699380099982591,
+        "failed_documents": 0,
+        "label": "issue15.recursive_cs1024",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/recursive_cs1024/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 594,
+        "configuration": {
+          "chunk_size": 4096,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.06656067699987034,
+        "failed_documents": 0,
+        "label": "issue15.recursive_cs4096",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/recursive_cs4096/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 5630,
+        "configuration": {
+          "chunk_size": 1024,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.8
+        },
+        "elapsed_seconds": 3.286211473000094,
+        "failed_documents": 0,
+        "label": "issue15.semantic_cs1024",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_cs1024/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 5629,
+        "configuration": {
+          "chunk_size": 4096,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.8
+        },
+        "elapsed_seconds": 3.1445829919998687,
+        "failed_documents": 0,
+        "label": "issue15.semantic_cs4096",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_cs4096/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 4930,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.7
+        },
+        "elapsed_seconds": 3.322987056999864,
+        "failed_documents": 0,
+        "label": "issue15.semantic_th070",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_th070/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 6325,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.9
+        },
+        "elapsed_seconds": 3.1402380869999433,
+        "failed_documents": 0,
+        "label": "issue15.semantic_th090",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_th090/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2623,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 839,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.28811261100054253,
+        "failed_documents": 0,
+        "label": "issue16.token_cal_cs839",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue16/token_cal_cs839/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2871,
+        "configuration": {
+          "chunk_size": 1025,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.1106930599999032,
+        "failed_documents": 0,
+        "label": "issue16.recursive_cal_cs1025",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue16/recursive_cal_cs1025/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2141,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.3
+        },
+        "elapsed_seconds": 3.056384491999779,
+        "failed_documents": 0,
+        "label": "issue16.semantic_cal_th030",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue16/semantic_cal_th030/run_metadata.json",
+        "processed_documents": 32,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 90,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 839,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.01735101499798475,
+        "failed_documents": 0,
+        "label": "issue17.length_p95__token",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p95__token/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 84,
+        "configuration": {
+          "chunk_size": 1025,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.009499865998805035,
+        "failed_documents": 0,
+        "label": "issue17.length_p95__recursive",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p95__recursive/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 103,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.3
+        },
+        "elapsed_seconds": 0.1300515799994173,
+        "failed_documents": 0,
+        "label": "issue17.length_p95__semantic",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p95__semantic/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 213,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 839,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.03078486999947927,
+        "failed_documents": 0,
+        "label": "issue17.length_p99__token",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p99__token/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 240,
+        "configuration": {
+          "chunk_size": 1025,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.016150612998899305,
+        "failed_documents": 0,
+        "label": "issue17.length_p99__recursive",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p99__recursive/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 167,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.3
+        },
+        "elapsed_seconds": 0.27032204900024226,
+        "failed_documents": 0,
+        "label": "issue17.length_p99__semantic",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p99__semantic/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2113,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 839,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.23551665600098204,
+        "failed_documents": 0,
+        "label": "issue17.length_max__token",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_max__token/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 2343,
+        "configuration": {
+          "chunk_size": 1025,
+          "min_characters_per_chunk": 24,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 0.07826509900041856,
+        "failed_documents": 0,
+        "label": "issue17.length_max__recursive",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_max__recursive/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 1662,
+        "configuration": {
+          "chunk_size": 2048,
+          "embedding_model": "minishlab/potion-base-32M",
+          "threshold": 0.3
+        },
+        "elapsed_seconds": 2.395008223997138,
+        "failed_documents": 0,
+        "label": "issue17.length_max__semantic",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_max__semantic/run_metadata.json",
+        "processed_documents": 3,
+        "status": "completed"
+      },
+      {
+        "chunks_written": 1334973,
+        "configuration": {
+          "chunk_overlap": 0,
+          "chunk_size": 2048,
+          "tokenizer": "character"
+        },
+        "elapsed_seconds": 344.77283667610027,
+        "failed_documents": 0,
+        "label": "week2.scaled_token",
+        "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/run_metadata.json",
+        "processed_documents": 227628,
+        "status": "completed"
+      }
+    ],
+    "qa": [
+      {
+        "chunks_checked": 1078,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "baseline.token",
+        "path": "/home/jovyan/chunking_sprint/runs/issue10_token/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 1272,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "baseline.recursive",
+        "path": "/home/jovyan/chunking_sprint/runs/issue10_recursive/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 5629,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "baseline.semantic",
+        "path": "/home/jovyan/chunking_sprint/runs/issue10_semantic/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 1
+      },
+      {
+        "chunks_checked": 2144,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.token_cs1024",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/token_cs1024/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 546,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.token_cs4096",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/token_cs4096/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 2879,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.recursive_cs1024",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/recursive_cs1024/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 594,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.recursive_cs4096",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/recursive_cs4096/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 5630,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.semantic_cs1024",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_cs1024/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 1
+      },
+      {
+        "chunks_checked": 5629,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.semantic_cs4096",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_cs4096/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 1
+      },
+      {
+        "chunks_checked": 4930,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.semantic_th070",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_th070/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 1
+      },
+      {
+        "chunks_checked": 6325,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue15.semantic_th090",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue15/semantic_th090/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 1
+      },
+      {
+        "chunks_checked": 2623,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue16.token_cal_cs839",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue16/token_cal_cs839/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 2871,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue16.recursive_cal_cs1025",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue16/recursive_cal_cs1025/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 2141,
+        "documents_checked": 32,
+        "hard_failure_events": 0,
+        "label": "issue16.semantic_cal_th030",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue16/semantic_cal_th030/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 1
+      },
+      {
+        "chunks_checked": 90,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_p95__token",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p95__token/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 84,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_p95__recursive",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p95__recursive/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 103,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_p95__semantic",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p95__semantic/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 213,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_p99__token",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p99__token/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 240,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_p99__recursive",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p99__recursive/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 167,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_p99__semantic",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_p99__semantic/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 2113,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_max__token",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_max__token/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 2343,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_max__recursive",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_max__recursive/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 1662,
+        "documents_checked": 3,
+        "hard_failure_events": 0,
+        "label": "issue17.length_max__semantic",
+        "path": "/home/jovyan/chunking_sprint/week3/runs/issue17/long_runtime/length_max__semantic/qa/qa_summary.json",
+        "status": "pass",
+        "warning_count": 0
+      },
+      {
+        "chunks_checked": 1334973,
+        "documents_checked": 227628,
+        "hard_failure_events": null,
+        "label": "week2.scaled_token",
+        "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/scaled_qa_summary.json",
+        "status": "pass",
+        "warning_count": null
+      }
+    ],
+    "qa_summary_count": 24,
+    "run_metadata_count": 24
+  },
+  "reproducibility_freeze": "/home/jovyan/chunking_sprint/week3/reports/issue18_reproducibility_freeze.json",
+  "required_artifact_count": 61,
+  "required_artifacts": [
+    {
+      "bytes": 18347,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_recursive/summary.csv",
+      "hash_status": "computed",
+      "key": "baseline.recursive.csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_recursive/summary.csv",
+      "sha256": "749b2b7206e5a9bd3277298cb049a3377e41e102fb40295b1794576effd1f00e"
+    },
+    {
+      "bytes": 15750,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_recursive/summary.json",
+      "hash_status": "computed",
+      "key": "baseline.recursive.json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_recursive/summary.json",
+      "sha256": "1e4fa52437d1c83455d576472ecceafcf9d8b1ff7631849dee532be67734fda7"
+    },
+    {
+      "bytes": 2021,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_recursive/report.md",
+      "hash_status": "computed",
+      "key": "baseline.recursive.md",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_recursive/report.md",
+      "sha256": "c6014bf40f690f70c05e1d35edf97d0b70aaa513d8d40b2f65cbc89f0f930fba"
+    },
+    {
+      "bytes": 18723,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_semantic/summary.csv",
+      "hash_status": "computed",
+      "key": "baseline.semantic.csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_semantic/summary.csv",
+      "sha256": "c05f63db26958a276ada446aa6fcb12cfe9b0811df2b77b91c738c325bc14827"
+    },
+    {
+      "bytes": 16516,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_semantic/summary.json",
+      "hash_status": "computed",
+      "key": "baseline.semantic.json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_semantic/summary.json",
+      "sha256": "b6bca31b5eb37269bcba0f0510ba7de2e6c8400b42a631dbb0c69a65424c161b"
+    },
+    {
+      "bytes": 2189,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_semantic/report.md",
+      "hash_status": "computed",
+      "key": "baseline.semantic.md",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_semantic/report.md",
+      "sha256": "e91811a25415f34ff666d45e2e9b797cf56f8bc6744c890cb34a8a7bab7d812c"
+    },
+    {
+      "bytes": 18448,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_token/summary.csv",
+      "hash_status": "computed",
+      "key": "baseline.token.csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_token/summary.csv",
+      "sha256": "c32e018af2d43df763083ef481c17ae4ebd2745d3708f6f7a87ec28b74c6e15d"
+    },
+    {
+      "bytes": 15974,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_token/summary.json",
+      "hash_status": "computed",
+      "key": "baseline.token.json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_token/summary.json",
+      "sha256": "a0aaac6de0cd5968a21d9364efac515a75fdcd69ae2d2a11a4927164ff3d2950"
+    },
+    {
+      "bytes": 2005,
+      "category": "baseline",
+      "display_path": "week3/results/baseline_token/report.md",
+      "hash_status": "computed",
+      "key": "baseline.token.md",
+      "path": "/home/jovyan/chunking_sprint/week3/results/baseline_token/report.md",
+      "sha256": "72403813aa303f6c54c20c0da5f5ca7ee71795ce64bb5ea13bf6f999a6aeb911"
+    },
+    {
+      "bytes": 4664,
+      "category": "dataset",
+      "display_path": "/home/jovyan/hash_output/_audit/chunking_input_sha256_manifest.txt",
+      "hash_status": "computed",
+      "key": "dataset.freeze_manifest",
+      "path": "/home/jovyan/hash_output/_audit/chunking_input_sha256_manifest.txt",
+      "sha256": "9b317d36d9216a0cd470624a96481eb60c4be1997013d252d4e535e54c54b3ad"
+    },
+    {
+      "bytes": 1666,
+      "category": "dataset",
+      "display_path": "/home/jovyan/hash_output/_audit/dataset_freeze.md",
+      "hash_status": "computed",
+      "key": "dataset.freeze_record",
+      "path": "/home/jovyan/hash_output/_audit/dataset_freeze.md",
+      "sha256": "77c5bab99eb5e36a30016cad92216e1db0c7218ebd9ac1788f6c8d16ff7f0230"
+    },
+    {
+      "bytes": 403,
+      "category": "design",
+      "display_path": "week3/configs/baseline_configs.json",
+      "hash_status": "computed",
+      "key": "design.baseline_configs",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/baseline_configs.json",
+      "sha256": "1798a709ba303b3a7fda191b12715e6e0c593a00e494dbbcde1a3893103184a9"
+    },
+    {
+      "bytes": 95,
+      "category": "design",
+      "display_path": "week3/configs/environment_snapshot.json",
+      "hash_status": "computed",
+      "key": "design.environment_snapshot",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/environment_snapshot.json",
+      "sha256": "7f53d84d321c0d1606a4f71f51668d25f5ed9bcc0abd9e8f06253c31745fa632"
+    },
+    {
+      "bytes": 6176,
+      "category": "design",
+      "display_path": "week3/week3_experiment_plan.md",
+      "hash_status": "computed",
+      "key": "design.experiment_plan",
+      "path": "/home/jovyan/chunking_sprint/week3/week3_experiment_plan.md",
+      "sha256": "6a6c598f1fe41a722382c8e38a2bbf733ec408449f19320294869b755bea385f"
+    },
+    {
+      "bytes": 687,
+      "category": "design",
+      "display_path": "week3/configs/experimental_constants.json",
+      "hash_status": "computed",
+      "key": "design.experimental_constants",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/experimental_constants.json",
+      "sha256": "02b81adf6bf0220e6e943bc0d4beee3ccffbbe5c3f1f568740a5065fe686d875"
+    },
+    {
+      "bytes": 884,
+      "category": "design",
+      "display_path": "week3/configs/parameter_sensitivity_matrix.csv",
+      "hash_status": "computed",
+      "key": "design.parameter_matrix",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/parameter_sensitivity_matrix.csv",
+      "sha256": "db1f5399dc38ef3a74aee0c0f7f217fb607ec76bda35ede235026613548a5d2d"
+    },
+    {
+      "bytes": 412,
+      "category": "design",
+      "display_path": "week3/configs/week3_input_sha256.txt",
+      "hash_status": "computed",
+      "key": "design.week3_input_sha256",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/week3_input_sha256.txt",
+      "sha256": "2e33488a0a6c11159b66874ad307e98651a318e035817e00c06554b309f9a750"
+    },
+    {
+      "bytes": 453,
+      "category": "environment",
+      "display_path": "requirements-lock.txt",
+      "hash_status": "computed",
+      "key": "environment.lock",
+      "path": "/home/jovyan/chunking_sprint/requirements-lock.txt",
+      "sha256": "4577a5ea7d694d294aa51b5572e8e390c039e29cdac310acab5540dbbb22a203"
+    },
+    {
+      "bytes": 42,
+      "category": "environment",
+      "display_path": "requirements.txt",
+      "hash_status": "computed",
+      "key": "environment.requirements",
+      "path": "/home/jovyan/chunking_sprint/requirements.txt",
+      "sha256": "76741846925216c2aca4cfab164c6a9cb568057a26701bbf0c7860ed7642e242"
+    },
+    {
+      "bytes": 24932,
+      "category": "evaluation",
+      "display_path": "week3/evaluate_chunks.py",
+      "hash_status": "computed",
+      "key": "evaluation.aggregator",
+      "path": "/home/jovyan/chunking_sprint/week3/evaluate_chunks.py",
+      "sha256": "55f5aca25edbb26794695b1717e91da240d1b08d1b1bf9c99294eef3e61e455a"
+    },
+    {
+      "bytes": 897,
+      "category": "evaluation",
+      "display_path": "week3/configs/evaluation_metric_schema.json",
+      "hash_status": "computed",
+      "key": "evaluation.metric_schema",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/evaluation_metric_schema.json",
+      "sha256": "f87e45648eb5b544155d4ea5ed944c63ad90b61232c5c48bec8ad1dfd253c388"
+    },
+    {
+      "bytes": 4802,
+      "category": "evaluation",
+      "display_path": "week3/configs/evaluation_metric_spec.md",
+      "hash_status": "computed",
+      "key": "evaluation.metric_spec",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/evaluation_metric_spec.md",
+      "sha256": "5888db3eacdf8ffe5e1abbd195623ec0c5bf25856294ad03544fa0e857de2eb1"
+    },
+    {
+      "bytes": 960197,
+      "category": "input",
+      "display_path": "week3/inputs/issue17_length_max.parquet",
+      "hash_status": "computed",
+      "key": "input.issue17_length_max",
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_length_max.parquet",
+      "sha256": "c25b96717ae613e19367f43adafae52c2f144e74bdc18fca17793138316382b0"
+    },
+    {
+      "bytes": 48587,
+      "category": "input",
+      "display_path": "week3/inputs/issue17_length_p95.parquet",
+      "hash_status": "computed",
+      "key": "input.issue17_length_p95",
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_length_p95.parquet",
+      "sha256": "8d6de4a0b4790f4f9d38af748436a612343672b4a5dd43cd7779b93f878f7a68"
+    },
+    {
+      "bytes": 103464,
+      "category": "input",
+      "display_path": "week3/inputs/issue17_length_p99.parquet",
+      "hash_status": "computed",
+      "key": "input.issue17_length_p99",
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_length_p99.parquet",
+      "sha256": "35d13d0abfea76b0a5e065752d71d7d2123ddc8c7f2ce6e9de66a598a35c559e"
+    },
+    {
+      "bytes": 1103011,
+      "category": "input",
+      "display_path": "week3/inputs/issue17_long_documents.parquet",
+      "hash_status": "computed",
+      "key": "input.issue17_long_documents",
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_long_documents.parquet",
+      "sha256": "9522060a1af0789f3774df1773d37ec52d915bc0c129ea73c128ee4f1a71a51c"
+    },
+    {
+      "bytes": 2421,
+      "category": "input",
+      "display_path": "week3/inputs/issue17_long_runtime_inputs.json",
+      "hash_status": "computed",
+      "key": "input.issue17_long_runtime_inputs",
+      "path": "/home/jovyan/chunking_sprint/week3/inputs/issue17_long_runtime_inputs.json",
+      "sha256": "94dd83e26057c477bdef420a20265fe54c6a62a7f17db63506862a39d2ebe691"
+    },
+    {
+      "bytes": 1206500,
+      "category": "input",
+      "display_path": "/home/jovyan/hash_output/_audit/profiling/representative_samples.parquet",
+      "hash_status": "computed",
+      "key": "input.representative_sample",
+      "path": "/home/jovyan/hash_output/_audit/profiling/representative_samples.parquet",
+      "sha256": "3f94e75b152e2cc41cbddf9b5ad7a6a42477b9627b510db08d91d4e5f6a70caf"
+    },
+    {
+      "bytes": 243,
+      "category": "matched",
+      "display_path": "week3/configs/issue16_calibration_matrix.csv",
+      "hash_status": "computed",
+      "key": "matched.calibration_matrix",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue16_calibration_matrix.csv",
+      "sha256": "370ac8be67d623c0bd2520eaa8f1481b4f74587d453513cb648ec5e7802bd8de"
+    },
+    {
+      "bytes": 2004,
+      "category": "matched",
+      "display_path": "week3/configs/issue16_comparison_protocol.md",
+      "hash_status": "computed",
+      "key": "matched.comparison_protocol",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue16_comparison_protocol.md",
+      "sha256": "0fe1a865493caef778a71af2a327c2399c70ecc71fa584bdccc6523fe67be30e"
+    },
+    {
+      "bytes": 3238,
+      "category": "matched",
+      "display_path": "week3/results/issue16/matched_comparison/matched_sample_groups.csv",
+      "hash_status": "computed",
+      "key": "matched.groups_csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue16/matched_comparison/matched_sample_groups.csv",
+      "sha256": "7619a2b846190611a6d4dc0b5272c10fbbb2d9ad8e2dbceb34f414ca13e98521"
+    },
+    {
+      "bytes": 7671,
+      "category": "matched",
+      "display_path": "week3/results/issue16/matched_comparison/matched_comparison_interpretation.md",
+      "hash_status": "computed",
+      "key": "matched.interpretation",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue16/matched_comparison/matched_comparison_interpretation.md",
+      "sha256": "adb0b6a3ca6a4ccd8456db260ba22b09073bc8a4169bbc0352be3c94fab944cd"
+    },
+    {
+      "bytes": 5290,
+      "category": "matched",
+      "display_path": "week3/configs/issue16_matching_protocol.md",
+      "hash_status": "computed",
+      "key": "matched.matching_protocol",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue16_matching_protocol.md",
+      "sha256": "c3820719f85b9b0461d6d00977aba3ceda7325d33d305a72b0d82b7efa58be1c"
+    },
+    {
+      "bytes": 109,
+      "category": "matched",
+      "display_path": "week3/configs/issue16_recursive_calibration_matrix.csv",
+      "hash_status": "computed",
+      "key": "matched.recursive_calibration_matrix",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue16_recursive_calibration_matrix.csv",
+      "sha256": "e81b8bc4ab1d0669cfff58696dda0582024978388c47ecc66e244e44f90dfbe6"
+    },
+    {
+      "bytes": 1661,
+      "category": "matched",
+      "display_path": "week3/results/issue16/matched_comparison/matched_comparison.md",
+      "hash_status": "computed",
+      "key": "matched.report",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue16/matched_comparison/matched_comparison.md",
+      "sha256": "2f6126415bcb950064e79fb7387fb8db708af2d509762b8f1ab5e5341bc0732b"
+    },
+    {
+      "bytes": 1422,
+      "category": "matched",
+      "display_path": "week3/configs/issue16_matched_settings.json",
+      "hash_status": "computed",
+      "key": "matched.settings",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue16_matched_settings.json",
+      "sha256": "7b01ecb5593c3b3c9f08d041a2186cdd2d3930ffe0011da273f2d13bfc550fbb"
+    },
+    {
+      "bytes": 1434,
+      "category": "matched",
+      "display_path": "week3/results/issue16/matched_comparison/matched_comparison.csv",
+      "hash_status": "computed",
+      "key": "matched.summary_csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue16/matched_comparison/matched_comparison.csv",
+      "sha256": "73cc4bd8d4b0bd420f74f0ab06d6fef5ee6cc7a7ab1fe80f953080d5855002e5"
+    },
+    {
+      "bytes": 19693,
+      "category": "matched",
+      "display_path": "week3/results/issue16/matched_comparison/matched_comparison.json",
+      "hash_status": "computed",
+      "key": "matched.summary_json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue16/matched_comparison/matched_comparison.json",
+      "sha256": "70d22fc1f7e30cf8464e7cf2daf8d7fe580766b5cc6b45188835ecd42d78cf6a"
+    },
+    {
+      "bytes": 239,
+      "category": "matched",
+      "display_path": "week3/configs/issue16_token_calibration_matrix.csv",
+      "hash_status": "computed",
+      "key": "matched.token_calibration_matrix",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue16_token_calibration_matrix.csv",
+      "sha256": "9c99ea13e58945ef4010409e30485e1d0884a3bf8a9bd476df835362cb8f4440"
+    },
+    {
+      "bytes": 585,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/computational_cost.csv",
+      "hash_status": "computed",
+      "key": "robustness.cost_csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/computational_cost.csv",
+      "sha256": "e391f08edd93c32c8c875f52f8ecb0ed8c0343ce141ff724d0daa7b06946390f"
+    },
+    {
+      "bytes": 14255,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/final_report.md",
+      "hash_status": "computed",
+      "key": "robustness.final_report",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/final_report.md",
+      "sha256": "db8efd03f8743fe413f74ab75239f02064c69150df191286d31acb7f4bdce53f"
+    },
+    {
+      "bytes": 5375,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/final_summary.json",
+      "hash_status": "computed",
+      "key": "robustness.final_summary",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/final_summary.json",
+      "sha256": "a454c00fda427683655e1debe68bf1c8f9210051be859a634261e552e76c67e0"
+    },
+    {
+      "bytes": 4190,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/robustness_by_group.csv",
+      "hash_status": "computed",
+      "key": "robustness.groups_csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/robustness_by_group.csv",
+      "sha256": "2bc099abcc0a43c50477cae31af046eef2fa758bb3ce22ad741e259c5d655b89"
+    },
+    {
+      "bytes": 1691,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/long_runtime/long_runtime_summary.csv",
+      "hash_status": "computed",
+      "key": "robustness.long_runtime_csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/long_runtime/long_runtime_summary.csv",
+      "sha256": "13d0aad2cc8d700b2454134eaa4dd06fca0371177e25ed1321177f63678b62ea"
+    },
+    {
+      "bytes": 5619,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/long_runtime/long_runtime_summary.json",
+      "hash_status": "computed",
+      "key": "robustness.long_runtime_json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/long_runtime/long_runtime_summary.json",
+      "sha256": "ad9c20e364e65b99df0e3fe4d83087467ea3933a7261aa705f0af57b5c5da122"
+    },
+    {
+      "bytes": 1447,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/long_runtime/long_runtime_summary.md",
+      "hash_status": "computed",
+      "key": "robustness.long_runtime_md",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/long_runtime/long_runtime_summary.md",
+      "sha256": "6867904bc6bcbdc9c49322aa7be8ce82fe274b4a7d28731f8986caf0a9953688"
+    },
+    {
+      "bytes": 2382,
+      "category": "robustness",
+      "display_path": "week3/configs/issue17_long_runtime_protocol.md",
+      "hash_status": "computed",
+      "key": "robustness.long_runtime_protocol",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue17_long_runtime_protocol.md",
+      "sha256": "f5f3cd84b37fccde1beba5e0b95e0d9294c00d1685c4092220ee2d762aeed8a1"
+    },
+    {
+      "bytes": 3484,
+      "category": "robustness",
+      "display_path": "week3/configs/issue17_analysis_protocol.md",
+      "hash_status": "computed",
+      "key": "robustness.protocol",
+      "path": "/home/jovyan/chunking_sprint/week3/configs/issue17_analysis_protocol.md",
+      "sha256": "27cd0ea492e35e44b1405d6dc8323c5fae630632737c11fef3efc548c5c2b1da"
+    },
+    {
+      "bytes": 3805,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/robustness_summary.md",
+      "hash_status": "computed",
+      "key": "robustness.report",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/robustness_summary.md",
+      "sha256": "f6895896613b0d8f90657ec722e73cd1ec2321a82ebba1fbec37ad54b66977c8"
+    },
+    {
+      "bytes": 1765,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/scaled_engineering_evidence.json",
+      "hash_status": "computed",
+      "key": "robustness.scaled_json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/scaled_engineering_evidence.json",
+      "sha256": "1df02dd34c11e182c31c3378c1cf64ff313f47d4b55d652c96129658f3bd5c88"
+    },
+    {
+      "bytes": 1219,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/scaled_engineering_evidence.md",
+      "hash_status": "computed",
+      "key": "robustness.scaled_md",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/scaled_engineering_evidence.md",
+      "sha256": "77b9014a1e87665b1583005fe2217967773b4a7d693cb6d30196ed536e9500e3"
+    },
+    {
+      "bytes": 21519,
+      "category": "robustness",
+      "display_path": "week3/results/issue17/robustness_summary.json",
+      "hash_status": "computed",
+      "key": "robustness.summary_json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/issue17/robustness_summary.json",
+      "sha256": "dfeca7f3b5c1e9117c293aa87f092abcb8291b07fc0cd2d1a1225843775aef86"
+    },
+    {
+      "bytes": 552,
+      "category": "scaled",
+      "display_path": "runs/issue11_token_part0/scaled_qa_summary.json",
+      "hash_status": "computed",
+      "key": "scaled.qa",
+      "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/scaled_qa_summary.json",
+      "sha256": "b6c080fc7a1ec2a02ee130f49bdf1e25b639674fe71d6845d498a9fb4cd4a52c"
+    },
+    {
+      "bytes": 123,
+      "category": "scaled",
+      "display_path": "runs/issue11_token_part0/resource_usage.txt",
+      "hash_status": "computed",
+      "key": "scaled.resources",
+      "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/resource_usage.txt",
+      "sha256": "2a7e4fb1dcedc9b157ae18286f2b3bfe692a280c1b6e5654a48cc06a17ade35b"
+    },
+    {
+      "bytes": 1749,
+      "category": "scaled",
+      "display_path": "runs/issue11_token_part0/run_metadata.json",
+      "hash_status": "computed",
+      "key": "scaled.run_metadata",
+      "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/run_metadata.json",
+      "sha256": "6945533c44d495f89735202342915aa2b61cc607ad7ca204c5c457c0225bbbda"
+    },
+    {
+      "bytes": 0,
+      "category": "scaled",
+      "display_path": "runs/issue11_token_part0/pipeline.stderr.log",
+      "hash_status": "computed",
+      "key": "scaled.stderr",
+      "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/pipeline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2370,
+      "category": "scaled",
+      "display_path": "runs/issue11_token_part0/pipeline.stdout.log",
+      "hash_status": "computed",
+      "key": "scaled.stdout",
+      "path": "/home/jovyan/chunking_sprint/runs/issue11_token_part0/pipeline.stdout.log",
+      "sha256": "cc9b2bf12b20114f5c2f8fd0221f85bd892911630a15437ce782cd4e33208445"
+    },
+    {
+      "bytes": 6526,
+      "category": "sensitivity",
+      "display_path": "week3/results/parameter_sensitivity/parameter_sensitivity_observations.md",
+      "hash_status": "computed",
+      "key": "sensitivity.observations",
+      "path": "/home/jovyan/chunking_sprint/week3/results/parameter_sensitivity/parameter_sensitivity_observations.md",
+      "sha256": "39ad34a303ed23f997c4485483e5e41b613084e0fcf285d0516600bac618e6cb"
+    },
+    {
+      "bytes": 3776,
+      "category": "sensitivity",
+      "display_path": "week3/results/parameter_sensitivity/parameter_sensitivity_report.md",
+      "hash_status": "computed",
+      "key": "sensitivity.report",
+      "path": "/home/jovyan/chunking_sprint/week3/results/parameter_sensitivity/parameter_sensitivity_report.md",
+      "sha256": "67d23b50977822291edc063f2e5d8b547351b872e8250b50dcea2a6aabd31f75"
+    },
+    {
+      "bytes": 4067,
+      "category": "sensitivity",
+      "display_path": "week3/results/parameter_sensitivity/parameter_sensitivity_summary.csv",
+      "hash_status": "computed",
+      "key": "sensitivity.summary_csv",
+      "path": "/home/jovyan/chunking_sprint/week3/results/parameter_sensitivity/parameter_sensitivity_summary.csv",
+      "sha256": "8ed5731c1d0773b7081d7476583967ed0a9589c45769242ae9ff9282ba6402e5"
+    },
+    {
+      "bytes": 15190,
+      "category": "sensitivity",
+      "display_path": "week3/results/parameter_sensitivity/parameter_sensitivity_summary.json",
+      "hash_status": "computed",
+      "key": "sensitivity.summary_json",
+      "path": "/home/jovyan/chunking_sprint/week3/results/parameter_sensitivity/parameter_sensitivity_summary.json",
+      "sha256": "dbdc28a451b25280c814f80ecfd20fa68d6b7c6576da9614a1b33e1e3dab3d4c"
+    }
+  ],
+  "schema_version": 1
+}

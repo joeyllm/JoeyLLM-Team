@@ -1,0 +1,81 @@
+{
+  "canonical_row_counts": {
+    "baseline_results": 3,
+    "computational_cost": 3,
+    "long_document_runtime": 9,
+    "matched_granularity": 3,
+    "parameter_sensitivity": 11,
+    "reliability_qa": 24,
+    "robustness_summary": 30,
+    "scaled_engineering_evidence": 1
+  },
+  "canonical_summary_sha256": "b96c36259df159e60c1250609b4b66678b474d62f7f97d96d383c8f2ef0328d7",
+  "check_count": 14,
+  "checks": [
+    {
+      "check": "canonical_table_hashes_and_row_counts",
+      "status": "pass"
+    },
+    {
+      "check": "baseline_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "parameter_sensitivity_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "matched_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "robustness_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "long_runtime_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "computational_cost_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "reliability_inventory_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "scaled_source_to_canonical",
+      "status": "pass"
+    },
+    {
+      "check": "frozen_input_integrity",
+      "status": "pass"
+    },
+    {
+      "check": "report_traceability_hashes",
+      "status": "pass"
+    },
+    {
+      "check": "qa_failures_and_warning_semantics",
+      "status": "pass"
+    },
+    {
+      "check": "report_structure_and_limitations",
+      "status": "pass"
+    },
+    {
+      "check": "generation_policy_invariants",
+      "status": "pass"
+    }
+  ],
+  "comparison_table_index_sha256": "6e6001e0a8c0e2beceba1f502c0afa3eac81e9f19543b1bf969ce908a6ddfc15",
+  "conclusion": "Stored source evidence, canonical tables, report traceability, QA, and final report are internally consistent.",
+  "full_dataset_manifest_entries": 57,
+  "known_warning_events": 6,
+  "qa_records_with_warning_count_unrecorded": 1,
+  "report_sha256": "9f3c2f9177d3adabc8e98042f27ae01c7a42a188b8afa0f4211efe70f95ec14f",
+  "representative_input_sha256": "3f94e75b152e2cc41cbddf9b5ad7a6a42477b9627b510db08d91d4e5f6a70caf",
+  "schema_version": 1,
+  "status": "pass"
+}
