@@ -1,0 +1,20 @@
+{
+  "recursive": {
+    "chunk_size": 2048,
+    "method": "recursive",
+    "min_characters_per_chunk": 24,
+    "tokenizer": "character"
+  },
+  "semantic": {
+    "chunk_size": 2048,
+    "embedding_model": "minishlab/potion-base-32M",
+    "method": "semantic",
+    "threshold": 0.8
+  },
+  "token": {
+    "chunk_overlap": 0,
+    "chunk_size": 2048,
+    "method": "token",
+    "tokenizer": "character"
+  }
+}
